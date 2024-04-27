@@ -1,3 +1,4 @@
+/*
 package org.javaturk.oofp.ch10.commons;
 
 import java.text.NumberFormat;
@@ -5,23 +6,22 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.Set;
 
-import org.apache.commons.collections4.Bag;
-import org.apache.commons.collections4.bag.HashBag;
-
+*/
 /**
  * https://commons.apache.org/proper/commons-collections/javadocs/api-4.4/org/apache/commons/collections4/Bag.html
  * https://commons.apache.org/proper/commons-collections/javadocs/api-4.4/org/apache/commons/collections4/bag/HashBag.html
  * @author akin
  *
- */
+ *//*
+
 public class BagInventory {
 	private Bag inventoryBag = new HashBag();
-	
+
 	private Album album1 = new Album("Ring Ring", "ABBA");
 	private Album album2 = new Album("Love Me Do", "Beatles");
 	private Album album3 = new Album("Appetite for Destruction", "Guns N' Roses");
 	private Album album4 = new Album("Let It Bleed", "Rolling Stones");
-	
+
 	public static void main(String[] args) {
 		BagInventory example = new BagInventory();
 		example.start();
@@ -33,7 +33,7 @@ public class BagInventory {
 		System.out.println("Inventory before Transactions");
 		printAlbums(inventoryBag);
 		printSeparator();
-		
+
 		// A Customer wants to purchase 500 ABBA, 2 Radiohead, and 150 Parker
 		Bag shoppingCart1 = new HashBag();
 		shoppingCart1.add(album4, 500);
@@ -94,12 +94,12 @@ public class BagInventory {
 class Album{
 	private String name;
 	private String band;
-	
+
 	public Album(String name, String artistName) {
 		super();
 		this.name = name;
 		this.band = artistName;
-	}	
+	}
 
 	public String getName() {
 		return name;
@@ -123,3 +123,4 @@ class Album{
 	}
 }
 
+*/

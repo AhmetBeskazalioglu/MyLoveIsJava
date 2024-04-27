@@ -1,15 +1,18 @@
+/*
 package org.javaturk.oofp.ch10.commons;
 
 import org.apache.commons.collections4.IterableMap;
 import org.apache.commons.collections4.MapIterator;
 import org.apache.commons.collections4.map.HashedMap;
 
+*/
 /**
  * https://commons.apache.org/proper/commons-collections/javadocs/api-4.4/org/apache/commons/collections4/IterableMap.html
  * https://commons.apache.org/proper/commons-collections/javadocs/api-4.4/org/apache/commons/collections4/map/HashedMap.html
  * @author akin
  *
- */
+ *//*
+
 public class MapIteration {
 
 	public static void main(String[] args) {
@@ -36,3 +39,4 @@ public class MapIteration {
 	}
 
 }
+*/
