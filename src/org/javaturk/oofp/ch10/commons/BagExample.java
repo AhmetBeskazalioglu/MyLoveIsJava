@@ -1,16 +1,21 @@
+/*
 package org.javaturk.oofp.ch10.commons;
 
 import java.util.Iterator;
 
-import org.apache.commons.collections4.Bag;
-import org.apache.commons.collections4.bag.HashBag;
+*/
+/*import org.apache.commons.collections4.Bag;
+import org.apache.commons.collections4.bag.HashBag;*//*
 
+
+*/
 /**
  * https://commons.apache.org/proper/commons-collections/javadocs/api-4.4/org/apache/commons/collections4/Bag.html
  * https://commons.apache.org/proper/commons-collections/javadocs/api-4.4/org/apache/commons/collections4/bag/HashBag.html
  * @author akin
  *
- */
+ *//*
+
 public class BagExample {
 	public static void main(String[] args) {
 
@@ -36,3 +41,4 @@ public class BagExample {
 			System.out.println(i.next());
 	}
 }
+*/

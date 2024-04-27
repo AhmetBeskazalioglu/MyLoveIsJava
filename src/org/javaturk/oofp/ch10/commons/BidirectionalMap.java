@@ -1,3 +1,4 @@
+/*
 package org.javaturk.oofp.ch10.commons;
 
 import java.util.function.BiConsumer;
@@ -5,12 +6,14 @@ import java.util.function.BiConsumer;
 import org.apache.commons.collections4.BidiMap;
 import org.apache.commons.collections4.bidimap.TreeBidiMap;
 
+*/
 /**
  * https://commons.apache.org/proper/commons-collections/javadocs/api-4.4/org/apache/commons/collections4/BidiMap.html
  * https://commons.apache.org/proper/commons-collections/javadocs/api-4.4/org/apache/commons/collections4/bidimap/TreeBidiMap.html
  * @author akin
  *
- */
+ *//*
+
 public class BidirectionalMap {
 
 	public static void main(String[] args) {
@@ -29,3 +32,4 @@ public class BidirectionalMap {
 		System.out.println("Key for value Cihan:  " + names.getKey("Cihan"));
 	}
 }
+*/

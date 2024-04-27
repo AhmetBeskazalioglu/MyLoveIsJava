@@ -1,3 +1,4 @@
+/*
 package org.javaturk.oofp.ch10.commons;
 
 import java.util.Collection;
@@ -7,12 +8,14 @@ import org.apache.commons.collections4.MultiValuedMap;
 import org.apache.commons.collections4.map.MultiKeyMap;
 import org.apache.commons.collections4.multimap.HashSetValuedHashMap;
 
+*/
 /**
  * https://commons.apache.org/proper/commons-collections/javadocs/api-4.4/org/apache/commons/collections4/MultiValuedMap.html
  * https://commons.apache.org/proper/commons-collections/javadocs/api-4.4/org/apache/commons/collections4/map/MultiKeyMap.html
  * @author akin
  *
- */
+ *//*
+
 public class MultiMapExample {
 
 	public static void main(String[] args) {
@@ -67,3 +70,4 @@ public class MultiMapExample {
 		}
 	}
 }
+*/
