@@ -1,7 +1,6 @@
 package oop.polymorphism.student.manage;
 
 import oop.polymorphism.student.*;
-import org.javaturk.oofp.ch03.shape.Shape;
 
 public class RegistrationOffice {
 
