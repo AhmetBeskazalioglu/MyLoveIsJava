@@ -1,4 +1,4 @@
-package designpatterns.singleton;
+package designpatterns.singleton.enumsingleton;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
