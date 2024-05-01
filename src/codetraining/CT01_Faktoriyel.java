@@ -1,6 +1,6 @@
 package codetraining;
 
-public class Faktoriyel {
+public class CT01_Faktoriyel {
     public static void main(String[] args) {
         int sayi = 5;
         int faktoriyel = 1;
