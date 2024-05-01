@@ -1,4 +1,4 @@
-package codetraining.maaslar;
+package codetraining.ct05_maaslar;
 
 public class TestMaaslar {
     public static void main(String[] args) {

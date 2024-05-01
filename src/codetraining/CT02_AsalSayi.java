@@ -1,6 +1,6 @@
 package codetraining;
 
-public class AsalSayi {
+public class  CT02_AsalSayi {
     public static void main(String[] args) {
         int sayi;
         for (sayi = 20; sayi <= 90; sayi++) {

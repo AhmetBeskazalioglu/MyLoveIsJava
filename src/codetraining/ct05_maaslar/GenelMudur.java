@@ -1,4 +1,4 @@
-package codetraining.maaslar;
+package codetraining.ct05_maaslar;
 
 public class GenelMudur extends Calisan{
     private double maas;
