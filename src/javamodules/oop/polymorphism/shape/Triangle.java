@@ -1,4 +1,4 @@
-package oop.polymorphism.shape;
+package javamodules.oop.polymorphism.shape;
 
 public class Triangle extends Shape{
 

@@ -1,4 +1,4 @@
-package oop.polymorphism.student;
+package javamodules.oop.polymorphism.student;
 
 public class Student {
     private int no;

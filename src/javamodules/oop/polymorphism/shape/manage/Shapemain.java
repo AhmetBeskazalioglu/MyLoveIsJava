@@ -1,9 +1,6 @@
-package oop.polymorphism.shape.manage;
+package javamodules.oop.polymorphism.shape.manage;
 
-import oop.polymorphism.shape.Rectangle;
-import oop.polymorphism.shape.Shape;
-import oop.polymorphism.shape.Square;
-import oop.polymorphism.shape.Triangle;
+import javamodules.oop.polymorphism.shape.Shape;
 
 public class Shapemain {
 

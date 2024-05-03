@@ -1,6 +1,8 @@
-package oop.polymorphism.student.manage;
+package javamodules.oop.polymorphism.student.manage;
 
-import oop.polymorphism.student.*;
+import javamodules.oop.polymorphism.student.*;
+
+
 
 public class RegistrationOffice {
 
