@@ -51,23 +51,22 @@ public class LambdaInstance {
 
         TemperatureConverter converterAll = (x, start, end) -> {
             if (start.toLowerCase().equals("celcius") && end.toLowerCase().equals("fahrenheit"))
-                System.out.println(x + " " + start + ", " + (x * 9 / 5 + 32) + " " + end);
+                System.out.println(x + " " + start + "=" + (x * 9 / 5 + 32) + " " + end);
             else if (start.toLowerCase().equals("fahrenheit") && end.toLowerCase().equals("celcius"))
-                System.out.println(x + " " + start + ", " + ((x - 32) * 5 / 9) + " " + end);
+                System.out.println(x + " " + start + "=" + ((x - 32) * 5 / 9) + " " + end);
             else if (start.toLowerCase().equals("celcius") && end.toLowerCase().equals("kelvin"))
-                System.out.println(x + " " + start + ", " + (x + 273.15) + " " + end);
+                System.out.println(x + " " + start + "=" + (x + 273.15) + " " + end);
             else if (start.toLowerCase().equals("kelvin") && end.toLowerCase().equals("celcius"))
-                System.out.println(x + " " + start + ", " + (x - 273.15) + " " + end);
+                System.out.println(x + " " + start + "=" + (x - 273.15) + " " + end);
             else if (start.toLowerCase().equals("fahrenheit") && end.toLowerCase().equals("kelvin"))
-                System.out.println(x + " " + start + ", " + ((x - 32) * 5 / 9 + 273.15) + " " + end);
+                System.out.println(x + " " + start + "=" + ((x - 32) * 5 / 9 + 273.15) + " " + end);
             else if (start.toLowerCase().equals("kelvin") && end.toLowerCase().equals("fahrenheit"))
-                System.out.println(x + " " + start + ", " + ((x - 273.15) * 9 / 5 + 32) + " " + end);
+                System.out.println(x + " " + start + "=" + ((x - 273.15) * 9 / 5 + 32) + " " + end);
             else
                 System.out.println("Invalid start or end temperature type");
         };
 
-        // Interface tipindeki değişkeni metota parametre olarak göndermek
-        Printer printer = (x, converter) -> converter.convert(x, "Celcius", "Fahrenheit");
+
 
 
         // This calls above lambda expression and prints 10.
@@ -86,7 +85,11 @@ public class LambdaInstance {
         System.out.println("Kelvin to Fahrenheit: "+kelvinToFahrenheit.convert(273.15));*/
 
         converterAll.convert(0, "Celcius", "Fahrenheit");
-        printer.print(0, converterAll);
+        converterAll.convert(32, "Fahrenheit", "Celcius");
+        converterAll.convert(0, "Celcius", "Kelvin");
+        converterAll.convert(273.15, "Kelvin", "Celcius");
+        converterAll.convert(32, "Fahrenheit", "Kelvin");
+        converterAll.convert(273.15, "Kelvin", "Fahrenheit");
 
 
     }
