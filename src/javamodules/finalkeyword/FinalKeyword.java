@@ -2,7 +2,7 @@ package javamodules.finalkeyword;
 
 public class FinalKeyword {
 
-    static{
+    static {
         final int s = 30; // Static blok içinde tanımlandı
         System.out.println("s = " + s);
     }
