@@ -1,10 +1,10 @@
 package designpatterns.singleton.enumsingleton;
 
 import designpatterns.singleton.enumsingleton.araba.*;
+import designpatterns.singleton.enumsingleton.araba.*;
 
 import java.awt.EventQueue;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -17,12 +17,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JComboBox;
 import javax.swing.JTextField;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.Document;
-
 
 
 import javax.swing.JButton;

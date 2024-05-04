@@ -1,7 +1,5 @@
 package javamodules.lambdaExpression;
 
-import java.sql.SQLOutput;
-
 public class LambdaInstance {
 
     public static void main(String[] args) {

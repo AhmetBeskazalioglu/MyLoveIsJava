@@ -1,6 +1,7 @@
 package javamodules.oop.polymorphism.shape.manage;
 
 import javamodules.oop.polymorphism.shape.*;
+import javamodules.oop.polymorphism.shape.*;
 
 
 public class Canvas {
