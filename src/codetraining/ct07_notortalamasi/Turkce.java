@@ -1,6 +1,6 @@
 package codetraining.ct07_notortalamasi;
 
-public class Turkce {
+public class Turkce extends Notlar {
 
     private int vize;
     private int finalNotu;

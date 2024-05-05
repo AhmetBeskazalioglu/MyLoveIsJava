@@ -19,7 +19,8 @@ public class CT07_NotOrtalamasi {
     //49 VE ALTI / FF / 0,00
     //
     //Her ders için vize (%40), final (%60) alınarak not ortalaması hesaplanıp ekrana yazdırılır.
-    //Aynı program içerisinde koşullu ifadeler kullanılarak, Tüm derslerin not ortalaması hesaplanarak 70 cc 2,00 üzeri ise sınıfı geçti, altındaysa sınıfta kaldı şeklinde yazalım.
+    //Aynı program içerisinde koşullu ifadeler kullanılarak, Tüm derslerin not ortalaması hesaplanarak
+    // 70 cc 2,00 üzeri ise sınıfı geçti, altındaysa sınıfta kaldı şeklinde yazalım.
     //3 farklı öğrenci için bunu yapalım. Okul-sınıf-öğrenci yapısı kullanalım.
     //
     //Not1:   interface, abstract class kullanmak artı puandır.

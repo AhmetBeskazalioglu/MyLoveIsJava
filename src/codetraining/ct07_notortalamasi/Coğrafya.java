@@ -1,6 +1,6 @@
 package codetraining.ct07_notortalamasi;
 
-public class Coğrafya {
+public class Coğrafya extends Notlar{
 
     private int vize;
     private int finalNot;

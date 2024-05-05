@@ -1,6 +1,6 @@
 package codetraining.ct07_notortalamasi;
 
-public class Fizik {
+public class Fizik extends Notlar {
 
     private int vize;
     private int finalNot;

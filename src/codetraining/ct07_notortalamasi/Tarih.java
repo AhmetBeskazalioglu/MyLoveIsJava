@@ -1,6 +1,6 @@
 package codetraining.ct07_notortalamasi;
 
-public class Tarih {
+public class Tarih extends Notlar {
 
     private int vize;
     private int finalNot;

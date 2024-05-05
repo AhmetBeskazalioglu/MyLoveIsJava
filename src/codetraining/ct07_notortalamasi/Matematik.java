@@ -1,6 +1,6 @@
 package codetraining.ct07_notortalamasi;
 
-public class Matematik {
+public class Matematik extends Notlar {
 
     private int vize;
     private int finalNot;

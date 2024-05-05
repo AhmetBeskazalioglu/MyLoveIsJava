@@ -1,6 +1,6 @@
 package codetraining.ct07_notortalamasi;
 
-public class Kimya {
+public class Kimya extends Notlar {
 
     private int vize;
     private int finalNotu;
