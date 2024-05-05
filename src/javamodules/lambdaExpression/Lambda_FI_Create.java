@@ -1,5 +1,6 @@
 package javamodules.lambdaExpression;
 
+//04.05.24 Cumartesi
 
 public class Lambda_FI_Create {
 

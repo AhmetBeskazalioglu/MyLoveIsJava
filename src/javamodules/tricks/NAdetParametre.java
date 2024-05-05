@@ -1,5 +1,7 @@
 package javamodules.tricks;
 
+//04.05.24 Cumartesi
+
 public class NAdetParametre {
 
     public static void main(String[] args) {

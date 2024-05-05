@@ -1,5 +1,7 @@
 package javamodules.lambdaExpression;
 
+//04.05.24 Cumartesi
+
 public class LambdaInstance {
 
     public static void main(String[] args) {

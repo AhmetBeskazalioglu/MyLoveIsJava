@@ -1,5 +1,7 @@
 package javamodules.finalkeyword;
 
+//04.05.24 Cumartesi
+
 public class FinalKeyword {
 
     static {
