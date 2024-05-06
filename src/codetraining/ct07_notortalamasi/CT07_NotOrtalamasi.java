@@ -1,32 +1,45 @@
 package codetraining.ct07_notortalamasi;
 
+import codetraining.ct07_notortalamasi.dersler.*;
+import codetraining.ct07_notortalamasi.ogrenciler.Ogrenci;
+import codetraining.ct07_notortalamasi.ogrenciler.Ogrenci_2;
+import codetraining.ct07_notortalamasi.ogrenciler.Ogrenci_3;
+
 public class CT07_NotOrtalamasi {
-    //Not Ortalaması Hesaplayan Programı yazalım.
-    //
-    //Java ile Matematik, Fizik, Kimya, Türkçe, Tarih, Müzik derslerinin
-    // vize ve final sınav puanlarını kullanıcıdan alan ve ortalamalarını hesaplayıp ekrana bastırılan programı yazın.
-    //
-    //NOT ORTLAMALARINI AŞAĞIDAKİ GİBİ BELİRTELİM AYRI BELİRTELİM
-    //NOT HARF ARALIĞI NOTU
-    //90-100 / AA / 4,00
-    //85-89 / BA / 3,50
-    //80-84 / BB / 3,00
-    //75-79 / CB / 2,50
-    //70-74 / CC / 2,00
-    //65-69 / DC / 1,50
-    //60-64 / DD / 1,00
-    //50-59 / FD / 0,50
-    //49 VE ALTI / FF / 0,00
-    //
-    //Her ders için vize (%40), final (%60) alınarak not ortalaması hesaplanıp ekrana yazdırılır.
-    //Aynı program içerisinde koşullu ifadeler kullanılarak, Tüm derslerin not ortalaması hesaplanarak
-    // 70 cc 2,00 üzeri ise sınıfı geçti, altındaysa sınıfta kaldı şeklinde yazalım.
-    //3 farklı öğrenci için bunu yapalım. Okul-sınıf-öğrenci yapısı kullanalım.
-    //
-    //Not1:   interface, abstract class kullanmak artı puandır.
-    //Not2: Ternary Operator ya da Switch Case kullanmak artı puandır.
+
 
     public static void main(String[] args) {
+
+        Turkce turkceDersi = new Turkce();
+        Matematik matematikDersi = new Matematik();
+        Fizik fizikDersi = new Fizik();
+        Kimya kimyaDersi = new Kimya();
+        Cografya cografyaDersi = new Cografya();
+        Tarih tarihDersi = new Tarih();
+        Ingilizce ingilizceDersi = new Ingilizce();
+
+        Ogrenci ogrenci = new Ogrenci("Ahmet", "Yılmaz", 123);
+        Ogrenci_2 ogrenci_2 = new Ogrenci_2("Ali", "Çentik", 125);
+        Ogrenci_3 ogrenci_3 = new Ogrenci_3("Veli", "Kara", 126);
+
+        Dersler turkce =new Dersler(turkceDersi);
+        turkce.durumHesapla(turkce.ilgiliDersNotu(ogrenci, ogrenci.vize(), ogrenci.finalNot()));
+        System.out.println("************************************");
+
+        Dersler matematik =new Dersler(matematikDersi);
+        matematik.durumHesapla(matematik.ilgiliDersNotu(ogrenci_2, ogrenci_2.vize(), ogrenci_2.finalNot()));
+        System.out.println("************************************");
+
+        Dersler fizik =new Dersler(fizikDersi);
+        fizik.durumHesapla(fizik.ilgiliDersNotu(ogrenci_3, ogrenci_3.vize(), ogrenci_3.finalNot()));
+        System.out.println("************************************");
+
+        turkce.durumHesapla(turkce.ilgiliDersNotu(ogrenci_3, ogrenci_3.vize(), ogrenci_3.finalNot()));
+        System.out.println("************************************");
+
+
+
+
 
 
 
