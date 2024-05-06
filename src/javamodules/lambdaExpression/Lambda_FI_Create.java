@@ -55,7 +55,7 @@ interface NotFunction<I, O> {
 class NotFunctionaExample implements NotFunction<Integer, Integer> {
 
     /**
-     * 2. adım NotFunction interface'ini implemente eden class içerisinde apply metodu oluşturuyoruz.
+     * 2. adım NotFunction interface'ini implemente eden class içerisinde apply metodu override ediyorum.
      */
     @Override
     public Integer apply(Integer inputVariable) {
