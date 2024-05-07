@@ -51,7 +51,7 @@ public class SerilizationOrnek {
 				try {
 
 					Kullanici k = new Kullanici(1, "Ahmet", "Beşkazalıoğlu");
-					FileOutputStream dosya = new FileOutputStream("/Users/anke/Downloads/Kraft/Deneme.txt");
+					FileOutputStream dosya = new FileOutputStream("/Users/anke/Downloads/Kraft/Deneme.xml");
 					ObjectOutputStream yaz = new ObjectOutputStream(dosya);
 					yaz.writeObject(k);
 					yaz.close();
@@ -73,7 +73,7 @@ public class SerilizationOrnek {
 
 				try {
 					
-					FileInputStream dosya = new FileInputStream("/Users/anke/Downloads/Kraft/Deneme.txt");
+					FileInputStream dosya = new FileInputStream("/Users/anke/Downloads/Kraft/Deneme.xml");
 					ObjectInputStream oku = new ObjectInputStream(dosya);
 					Kullanici k = (Kullanici) oku.readObject();
 					System.out.println(k.toString());
