@@ -8,6 +8,7 @@ public class Customer {
     private String name;
     private String surname;
     private int age;
+    private Job job;
 
     public Customer() {
     }
@@ -17,6 +18,14 @@ public class Customer {
         this.name = name;
         this.surname = surname;
         this.age = age;
+    }
+
+    public Customer(String name, String surname, int age, Job job) {
+        super();
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+        this.job = job;
     }
 
     public String getName() {
