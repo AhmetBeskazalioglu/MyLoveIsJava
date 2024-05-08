@@ -12,6 +12,7 @@ public class JAXB_List_Marshal {
 
 
     public static void main(String[] args) {
+
         Faker faker = new Faker();
 
         Customer customer = new Customer("Ahmet", "Beşkazalıoğlu", 37, new Job("Software Developer", 10000));
