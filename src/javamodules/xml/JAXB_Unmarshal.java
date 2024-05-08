@@ -1,6 +1,7 @@
 package javamodules.xml;
 
 
+import javamodules.serilization.Kullanici;
 import javamodules.serilization.SerilizationOrnek;
 
 import javax.xml.bind.JAXBContext;

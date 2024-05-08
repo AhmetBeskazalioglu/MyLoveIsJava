@@ -1,7 +1,9 @@
 package javamodules.serilization;
 
+import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
+@XmlRootElement
 public class Kullanici implements Serializable {
 
 	private int id;
