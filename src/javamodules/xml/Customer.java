@@ -52,8 +52,16 @@ public class Customer {
         this.age = age;
     }
 
+    public Job getJob() {
+        return job;
+    }
+
+    public void setJob(Job job) {
+        this.job = job;
+    }
+
     @Override
     public String toString() {
-        return "Customer [name=" + name + ", surname=" + surname + ", age=" + age + "]";
+        return "Customer [name=" + name + ", surname=" + surname + ", age=" + age + ", job=" + job + "]";
     }
 }
