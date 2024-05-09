@@ -6,6 +6,7 @@ import javax.xml.bind.*;
 import java.io.*;
 import java.sql.*;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Personal_Jaxb {
     private static DatabaseSingletonEnum db;
@@ -108,7 +109,8 @@ public class Personal_Jaxb {
         unmarshalledPersonalListWrapper.getEmployees().forEach(x -> System.out.println(x.getName()));
         System.out.println("********************************");
         unmarshalledPersonalListWrapper.getEmployees().forEach(x -> System.out.println(x.getName()+"'s school address: "+x.getJob().getCompany().getAddress()));
-
+        System.out.println("********************************");
+        unmarshalledPersonalListWrapper.getEmployees().stream().collect(Collectors.groupingBy(x -> x.getEducation().getCourse())).forEach((k,v) -> System.out.println(k+" "+v));
 
 
 

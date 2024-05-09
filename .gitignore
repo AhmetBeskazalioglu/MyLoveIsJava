@@ -28,4 +28,6 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-org/
+### org packages githuba gitmesin diye ###
+/org/
+```

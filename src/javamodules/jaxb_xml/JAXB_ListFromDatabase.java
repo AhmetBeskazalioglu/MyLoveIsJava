@@ -15,6 +15,8 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class JAXB_ListFromDatabase {
 
@@ -105,6 +107,14 @@ public class JAXB_ListFromDatabase {
         unmarshalledCustomerListWrapper.getCustomers().forEach(x -> System.out.println(x.getName()));
         System.out.println("********************************");
         //unmarshalledCustomerListWrapper.getCustomers().forEach(x -> System.out.println(x.getJob());
+
+        unmarshalledCustomerListWrapper.getCustomers().stream().filter(x -> x.getJob().getDept()>20000).forEach(System.out::println);
+        // departmana göre gruplama yap
+        unmarshalledCustomerListWrapper.getCustomers().stream().collect(Collectors.groupingBy(x -> x.getJob().getDept()))
+                .forEach((key, value) -> {
+                    System.out.println(key);
+                    value.forEach(System.out::println);
+                });
 
 
     }
