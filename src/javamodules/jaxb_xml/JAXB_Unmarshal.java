@@ -1,15 +1,10 @@
-package javamodules.xml;
+package javamodules.jaxb_xml;
 
-
-import javamodules.serilization.Kullanici;
-import javamodules.serilization.SerilizationOrnek;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 
 public class JAXB_Unmarshal {
     public static void main(String[] args) {

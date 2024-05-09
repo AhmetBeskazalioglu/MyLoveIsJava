@@ -1,4 +1,6 @@
-package javamodules.xml;
+package javamodules.jaxb_xml;
+
+import javamodules.jaxb_xml.example.Job;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

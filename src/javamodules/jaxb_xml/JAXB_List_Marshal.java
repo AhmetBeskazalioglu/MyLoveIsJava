@@ -1,6 +1,7 @@
-package javamodules.xml;
+package javamodules.jaxb_xml;
 
 import com.github.javafaker.Faker;
+import javamodules.jaxb_xml.example.Job;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

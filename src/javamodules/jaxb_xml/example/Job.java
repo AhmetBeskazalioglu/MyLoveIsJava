@@ -1,4 +1,4 @@
-package javamodules.xml;
+package javamodules.jaxb_xml.example;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -7,6 +7,7 @@ public class Job {
 
     private String name;
     private int dept;
+    private Company company;
 
     public Job() {
     }
@@ -15,6 +16,13 @@ public class Job {
         super();
         this.name = name;
         this.dept = dept;
+    }
+
+    public Job(String name, int dept, Company company) {
+        super();
+        this.name = name;
+        this.dept = dept;
+        this.company = company;
     }
 
     public String getName() {
@@ -33,9 +41,17 @@ public class Job {
         this.dept = dept;
     }
 
+    public Company getCompany() {
+        return company;
+    }
+
+    public void setCompany(Company company) {
+        this.company = company;
+    }
+
     @Override
     public String toString() {
-        return "Job [name=" + name + ", dept=" + dept + "]";
+        return "Job [name=" + name + ", dept=" + dept + ", company=" + company + "]";
     }
 
 }

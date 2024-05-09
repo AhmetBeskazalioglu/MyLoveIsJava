@@ -1,4 +1,4 @@
-package javamodules.xml;
+package javamodules.jaxb_xml;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

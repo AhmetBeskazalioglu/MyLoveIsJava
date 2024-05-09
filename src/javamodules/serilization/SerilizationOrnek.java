@@ -1,3 +1,4 @@
+/*
 package javamodules.serilization;
 
 import java.awt.EventQueue;
@@ -12,9 +13,11 @@ public class SerilizationOrnek {
 
 	private JFrame frame;
 
-	/**
+	*/
+/**
 	 * Launch the application.
-	 */
+	 *//*
+
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -28,16 +31,20 @@ public class SerilizationOrnek {
 		});
 	}
 
-	/**
+	*/
+/**
 	 * Create the application.
-	 */
+	 *//*
+
 	public SerilizationOrnek() {
 		initialize();
 	}
 
-	/**
+	*/
+/**
 	 * Initialize the contents of the frame.
-	 */
+	 *//*
+
 	private void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 700, 900);
@@ -89,3 +96,4 @@ public class SerilizationOrnek {
 		frame.getContentPane().add(btnDosyadanOku);
 	}
 }
+*/

@@ -1,6 +1,9 @@
-package javamodules.xml;
+package javamodules.jaxb_xml;
 
 import designpatterns.singleton.enumsingleton.DatabaseSingletonEnum;
+import javamodules.jaxb_xml.example.Company;
+import javamodules.jaxb_xml.example.Job;
+import javamodules.jaxb_xml.example.Personal;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -19,37 +22,43 @@ public class JAXB_ListFromDatabase {
     private static Connection connection;
     private static Statement statement;
     private static ResultSet resultSet;
-    private static List<Customer> customers= new ArrayList<>();
+    private static List<Customer> customers;
     private static CustomerListWrapper customerListWrapper;
     private static Customer customer;
     private static CustomerListWrapper unmarshalledCustomerListWrapper;
 
-    public static void fromDatabaseToList(){
+    /**
+     * Databaseden gelen verileri listeye ekler.
+     */
+    public static void fromDatabaseToList(String query) {
         db = DatabaseSingletonEnum.INSTANCE;
         connection = db.getConnection();
         statement = db.getStatement();
 
+        customers = new ArrayList<>();
+
         try {
-            resultSet = statement.executeQuery(
-                    "select * from personel as p\n" +
-                            "join personel_detay as pd\n" +
-                            "on p.id=pd.id\n" +
-                            "order by p.id");
+            resultSet = statement.executeQuery(query);
             while (resultSet.next()) {
                 customer = new Customer();
                 customer.setName(resultSet.getString("ad"));
                 customer.setSurname(resultSet.getString("soyad"));
                 customer.setAge(resultSet.getInt("yas"));
-                customer.setJob(new Job(resultSet.getString("job"), resultSet.getInt("maas")));
+                customer.setJob(new Job(resultSet.getString("job"), resultSet.getInt("dept"),
+                new Company(resultSet.getString("company"), resultSet.getString("address"), resultSet.getString("phone_no"), resultSet.getString("industry"))));
                 customers.add(customer);
             }
             db.closeConnection();
+            System.out.println("Bağlantı kapatıldı.");
         } catch (Exception e) {
             System.out.println("Hata: " + e.getMessage());
         }
     }
 
-    public static void marshalOfList(){
+    /**
+     * Listeyi xml dosyasına yazar.
+     */
+    public static void marshalOfList() {
         customerListWrapper = new CustomerListWrapper(customers);
         try {
             File file = new File("/Users/anke/Downloads/Kraft/CustomerListFromDatabase.xml");
@@ -63,7 +72,10 @@ public class JAXB_ListFromDatabase {
         }
     }
 
-    public static void unmarshalOfList(){
+    /**
+     * Xml dosyasını okur ve listeye ekler.
+     */
+    public static void unmarshalOfList() {
 
         try {
             File file = new File("/Users/anke/Downloads/Kraft/CustomerListFromDatabase.xml");
@@ -80,8 +92,9 @@ public class JAXB_ListFromDatabase {
 
 
     public static void main(String[] args) {
+        String query1 = "select * from personal as p join personal_job as pj on p.id=pj.id join personal_company as pc on pj.company_id=pc.id order by p.id";
 
-        fromDatabaseToList();
+        fromDatabaseToList(query1);
         marshalOfList();
         unmarshalOfList();
 
@@ -90,12 +103,11 @@ public class JAXB_ListFromDatabase {
         unmarshalledCustomerListWrapper.getCustomers().forEach(x -> System.out.println(x.getJob()));
         System.out.println("********************************");
         unmarshalledCustomerListWrapper.getCustomers().forEach(x -> System.out.println(x.getName()));
-
+        System.out.println("********************************");
+        //unmarshalledCustomerListWrapper.getCustomers().forEach(x -> System.out.println(x.getJob());
 
 
     }
-
-
 
 
 }
