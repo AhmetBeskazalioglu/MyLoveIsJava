@@ -3,7 +3,7 @@ package javamodules.lambdaExpression;
 /**
  * Most common functional interfaces
  */
-public class Functional_Interfaces {
+public class GenericInterfaces_MostCommon {
     /**
      * Represents a predicate (boolean-valued function) of one argument.
      * Tek bir parametre alan ve boolean değer döndüren bir işlevi temsil eder.
