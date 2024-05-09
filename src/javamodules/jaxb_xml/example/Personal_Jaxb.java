@@ -110,5 +110,8 @@ public class Personal_Jaxb {
         unmarshalledPersonalListWrapper.getEmployees().forEach(x -> System.out.println(x.getName()+"'s school address: "+x.getJob().getCompany().getAddress()));
 
 
+
+
+
     }
 }

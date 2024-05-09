@@ -4,7 +4,7 @@ package javamodules.lambdaExpression;
 
 public class Lambda_FI_Create {
 
-    public static <O, I> void main(String[] args) {
+    public static void main(String[] args) {
 
         // IFunction interface'ini kullanarak lambda ifadesi oluşturuyoruz.
 
