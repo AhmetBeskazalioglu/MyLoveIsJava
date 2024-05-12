@@ -26,7 +26,7 @@ public enum DatabaseSingletonEnum {
 			Class.forName(myDriver);
 			this.connection = DriverManager.getConnection(dbPath, "postgres", "1234");
 			this.statement = connection.createStatement();
-			System.out.println("Bağlantı gerçekleşti");
+			System.out.println("Ana Bağlantı Başarılı.");
 		} catch (ClassNotFoundException | SQLException e) {
 			System.out.println("Hata: " + e.getMessage());
 		}

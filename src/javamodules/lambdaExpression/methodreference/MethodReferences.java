@@ -1,7 +1,9 @@
 
 package javamodules.lambdaExpression.methodreference;
 
-import org.javaturk.oofp.ch09.domain.Book;
+
+
+import javamodules.lambdaExpression.genericinterfacesexample.Book;
 
 import java.math.BigInteger;
 import java.util.Date;
