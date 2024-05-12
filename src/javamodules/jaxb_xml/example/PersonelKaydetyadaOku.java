@@ -54,7 +54,6 @@ public class PersonelKaydetyadaOku {
 	private static PersonalListWrapper personalListWrapper;
 	private static Personal personel;
 	private static PersonalListWrapper unmarshalledPersonalListWrapper;
-	private static String query_full;
 
 	/**
 	 * Launch the application.
@@ -278,6 +277,9 @@ public class PersonelKaydetyadaOku {
 
 	}
 
+	/**
+	 * Database e kayıt ekleme işlemi yapar.
+	 */
 	public void kayitEkle() {
 		if (txtad.getText().equals("")) {
 			JOptionPane.showMessageDialog(null, "Lütfen ad giriniz", "Hata", JOptionPane.ERROR_MESSAGE);
@@ -363,7 +365,7 @@ public class PersonelKaydetyadaOku {
 					System.out.println("Kayıt eklenemedi.");
 				}
 			} catch (Exception ex) {
-				System.out.println("Hata : " + ex.getMessage().toString());
+				System.out.println("Hata : kayitEkle() - " + ex.getMessage().toString());
 			}
 		}
 
@@ -372,12 +374,12 @@ public class PersonelKaydetyadaOku {
 	/**
 	 * Databaseden gelen verileri listeye ekler.
 	 */
-	public static void fromDatabaseToList(String query) {
+	public static void fromDatabaseToList() {
 
 		employees = new ArrayList<>();
 
 		try {
-			resultSet = statement.executeQuery(query);
+			resultSet = statement.executeQuery("select * from personal as p full join personal_job as pj on p.job_id=pj.id full join personal_company as pc on pj.company_id=pc.id full join personal_education as pe on pe.id=p.education_id order by p.id");
 			while (resultSet.next()) {
 				personel = new Personal();
 				personel.setId(resultSet.getInt("id"));
@@ -398,14 +400,17 @@ public class PersonelKaydetyadaOku {
 			}
 
 		} catch (Exception e) {
-			System.out.println("Hata: fromdatabase " + e.getMessage());
+			System.out.println("Hata : fromDatabaseToList() - " + e.getMessage());
 		}
 	}
 
+	/**
+	 * Tabloyu oluşturur.
+	 */
 	public void tabloOlustur(PersonalListWrapper plw) {
 
 		try {
-			resultSet = statement.executeQuery(query_full);
+			resultSet = statement.executeQuery("select * from personal as p full join personal_job as pj on p.job_id=pj.id full join personal_company as pc on pj.company_id=pc.id full join personal_education as pe on pe.id=p.education_id order by p.id");
 
 			tableModel = new DefaultTableModel();
 
@@ -458,11 +463,14 @@ public class PersonelKaydetyadaOku {
 			table_1.setModel(tableModel);
 
 		} catch (SQLException e) {
-			e.printStackTrace();
+			System.out.println("Hata : tabloOlustur() - " + e.getMessage());
 		}
 
 	}
 
+	/**
+	 * Database e bağlanır.
+	 */
 	public void connectToDatabase() {
 		db = DatabaseSingletonEnum.INSTANCE;
 		connection = db.getConnection();
@@ -470,6 +478,11 @@ public class PersonelKaydetyadaOku {
 		System.out.println("Bağlantı açıldı.");
 	}
 
+	/**
+	 * Database bağlantısını kapatır.
+	 *
+	 * @throws SQLException
+	 */
 	public void closeConnection() throws SQLException {
 		connection = null;
 		statement = null;
@@ -490,7 +503,7 @@ public class PersonelKaydetyadaOku {
 			marshaller.marshal(personalListWrapper, file);
 			// marshaller.marshal(personalListWrapper, System.out);
 		} catch (JAXBException e) {
-			throw new RuntimeException(e);
+			System.out.println("Hata : marshalOfList() - " + e.getMessage());
 		}
 	}
 
@@ -506,14 +519,13 @@ public class PersonelKaydetyadaOku {
 			unmarshalledPersonalListWrapper = (PersonalListWrapper) unmarshaller.unmarshal(file);
 
 		} catch (JAXBException e) {
-			throw new RuntimeException(e);
+			System.out.println("Hata : unmarshalOfList() - " + e.getMessage());
 		}
 	}
 
 	public void bilgiGetir() {
-		query_full = "select * from personal as p full join personal_job as pj on p.job_id=pj.id full join personal_company as pc on pj.company_id=pc.id full join personal_education as pe on pe.id=p.education_id order by p.id";
 
-		fromDatabaseToList(query_full);
+		fromDatabaseToList();
 		marshalOfList();
 		unmarshalOfList();
 		tabloOlustur(unmarshalledPersonalListWrapper);
