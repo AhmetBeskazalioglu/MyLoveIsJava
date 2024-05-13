@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PersonelListesiXmlForm">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/javamodules/tricks/PersonelListesiXmlForm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
