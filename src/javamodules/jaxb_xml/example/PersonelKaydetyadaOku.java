@@ -90,7 +90,7 @@ public class PersonelKaydetyadaOku {
      */
     private void initialize() {
         frame = new JFrame();
-        frame.setBounds(100, 100, 1500, 1500);
+        frame.setBounds(100, 100, 1500, 1200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(new BorderLayout());
 
@@ -602,6 +602,9 @@ public class PersonelKaydetyadaOku {
      * Dosya uzantısına göre dönüştürme işlemi yapar.
      * Bunun için common.io dependency eklenmelidir.
      *
+     * Dynamic Parser örneği.
+     *
+     * @param filePath
      * @param <T>
      * @return
      */
@@ -619,10 +622,13 @@ public class PersonelKaydetyadaOku {
                     ObjectMapper objectMapper = new ObjectMapper();
                     return (T) objectMapper.readValue(file, PersonalListWrapper.class);
                 case "csv":
+                    System.out.println("CSV için parser yazılacak.");
                     break;
                 case "txt":
+                    System.out.println("TXT için parser yazılacak.");
                     break;
                 case "xls":
+                    System.out.println("XLS için parser yazılacak.");
                     break;
                 default:
                     throw new IllegalArgumentException("Dosya uzantısı desteklenmiyor: " + extension);
