@@ -7,20 +7,20 @@ public class Faker {
 
         com.github.javafaker.Faker faker = new com.github.javafaker.Faker();
 
-        for (int i = 1; i < 11; i++) {
+        /*for (int i = 1; i < 11; i++) {
             System.out.println(
                     "insert into personal_education values " +
                             "("+ i + ",'" +
-                            /*faker.company().name() + "','" +
+                            *//*faker.company().name() + "','" +
                             faker.address().fullAddress() + "','" +
                             faker.phoneNumber().phoneNumber() + "','" +
-                            faker.company().industry() +"','"+*/
+                            faker.company().industry() +"','"+*//*
                             faker.educator().university() +"','"+
                             faker.educator().course() +"','"+
                             faker.educator().campus() +"','"+
                             faker.number().numberBetween(1980,2024) +
                             "');");
-        }
+        }*/
 
         /*for (int i = 1; i < 11; i++) {
             System.out.println(
@@ -32,11 +32,19 @@ public class Faker {
 
         }*/
 
+        for (int i = 1; i < 26; i++) {
+            System.out.println(
+                    "insert into vatandaslar values (" +
+                            faker.number().numberBetween(11111111111L, 99999999999L) + ",'" +
+                            faker.name().firstName() + "','" +
+                            faker.name().lastName() + "'," +
+                            faker.number().numberBetween(1950, 2024)
+                            + ");");
 
 
+        }
 
     }
-
 }
 
 

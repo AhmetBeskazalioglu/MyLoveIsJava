@@ -1,4 +1,4 @@
-package javamodules.jaxb_xml.example.composite;
+package designpatterns.composite;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import javamodules.jaxb_xml.example.PersonalListWrapper;

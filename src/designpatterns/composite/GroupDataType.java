@@ -1,4 +1,4 @@
-package javamodules.jaxb_xml.example.composite;
+package designpatterns.composite;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
