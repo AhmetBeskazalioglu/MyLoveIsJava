@@ -2,6 +2,8 @@ package designpatterns.repository;
 
 import jakarta.persistence.EntityManager;
 
+import java.util.List;
+
 public class UserRepository implements IUserRepository {
     private final EntityManager entityManager;
 
@@ -11,8 +13,7 @@ public class UserRepository implements IUserRepository {
 
     @Override
     public List<User> getAllUsers() {
-        return entityManager.createQuery("SELECT u FROM User u", User.class)
-                .getResultList();
+        return entityManager.createQuery("SELECT u FROM User u", User.class).getResultList();
     }
 
     @Override
