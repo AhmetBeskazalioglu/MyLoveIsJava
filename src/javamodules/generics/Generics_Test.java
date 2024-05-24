@@ -38,5 +38,13 @@ public class Generics_Test {
         System.out.println(yazdir2(int_dizi));
         System.out.println(yazdir2(string_dizi));
         System.out.println(yazdir2(ogrenci_dizi));
+        System.out.println("*************************");
+        if (yazdir2(int_dizi) instanceof Integer i){
+            System.out.println(i+" Integer");
+        } else if (yazdir2(string_dizi) instanceof String s){
+            System.out.println(s+" nın uzunluğu: "+s.length());
+        } else if (yazdir2(ogrenci_dizi) instanceof Ogrenci o){
+            System.out.println(o.getIsim()+" Öğrencisinin ismi");
+        }
     }
 }
