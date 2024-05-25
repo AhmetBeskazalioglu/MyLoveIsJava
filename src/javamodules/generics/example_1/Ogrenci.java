@@ -1,4 +1,4 @@
-package javamodules.generics;
+package javamodules.generics.example_1;
 
 public class Ogrenci {
     private String isim;

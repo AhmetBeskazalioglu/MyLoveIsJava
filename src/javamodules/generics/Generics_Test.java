@@ -1,5 +1,7 @@
 package javamodules.generics;
 
+import javamodules.generics.example_1.Ogrenci;
+
 public class Generics_Test {
 
     public static <E> void yazdir(E[] dizi){
