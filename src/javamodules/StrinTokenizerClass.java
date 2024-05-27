@@ -8,5 +8,14 @@ public class StrinTokenizerClass {
         while (st.hasMoreTokens()) {
             System.out.println(st.nextToken());
         }
+
+        System.out.println("*************************");
+
+        String str1 = "Java StringTokenizer Class";
+        java.util.StringTokenizer st1 = new java.util.StringTokenizer(str1, " ");
+        while (st1.hasMoreTokens()) {
+            System.out.println(st1.nextToken());
+        }
+
     }
 }
