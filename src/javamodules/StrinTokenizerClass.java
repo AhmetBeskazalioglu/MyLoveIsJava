@@ -17,5 +17,15 @@ public class StrinTokenizerClass {
             System.out.println(st1.nextToken());
         }
 
+        System.out.println("*************************");
+
+        String str2 = "Java StringTokenizer Class";
+
+        java.util.StringTokenizer st2 = new java.util.StringTokenizer(str2, " ", true);
+        while (st2.hasMoreTokens()) {
+            System.out.println(st2.nextToken());
+
+        }
+
     }
 }
