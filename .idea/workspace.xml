@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AhmetBeskazalioglu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AhmetBeskazalioglu/MyLoveIsJava.git&quot;,
+    &quot;accountId&quot;: &quot;6c319ab5-f83d-4311-9972-3ab9bbe67473&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;AhmetBeskazalioglu&quot;,
+    &quot;repository&quot;: &quot;MyLoveIsJava&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar!/javax/xml/bind/Marshaller.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/lib/src.zip!/java.base/java/util/Collection.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/lib/src.zip!/java.base/java/util/Comparator.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/lib/src.zip!/java.base/java/util/Objects.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/lib/src.zip!/java.base/java/util/function/BiFunction.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/lib/src.zip!/java.base/java/util/function/BinaryOperator.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/lib/src.zip!/java.base/java/util/function/Predicate.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JiraServerManager">
+    <selected>-1</selected>
+    <servers />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2fgCCKqRJqE5e6yAYdYx19xkI3F" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractClassExample.executor": "Run",
+    "Application.ArabaKayitFormuWithEnumSingletonDP.executor": "Run",
+    "Application.Array.executor": "Run",
+    "Application.ArrayManipulation.executor": "Run",
+    "Application.ArrayPrint.executor": "Run",
+    "Application.AsalSayi.executor": "Run",
+    "Application.BinaryOperatorExample.executor": "Run",
+    "Application.CT07_NotOrtalamasi.executor": "Run",
+    "Application.CanNotBeAbstract.executor": "Run",
+    "Application.EnumMethodExample.executor": "Run",
+    "Application.EvenNumberOperationsWithLambda.executor": "Run",
+    "Application.Faker.executor": "Run",
+    "Application.Faktoriyel.executor": "Run",
+    "Application.GenericInterfaceInstance.executor": "Run",
+    "Application.Generics_Methods.executor": "Run",
+    "Application.Generics_Test.executor": "Run",
+    "Application.JAXB.executor": "Run",
+    "Application.JAXB_List.executor": "Run",
+    "Application.JAXB_ListFromDatabase.executor": "Run",
+    "Application.JAXB_List_Marshal.executor": "Run",
+    "Application.JAXB_List_Unmarshal.executor": "Run",
+    "Application.JAXB_Marshal.executor": "Run",
+    "Application.JAXB_Unmarshal.executor": "Run",
+    "Application.JpaTest.executor": "Run",
+    "Application.LambdaInstance.executor": "Run",
+    "Application.Lambda_FI_Create (1).executor": "Run",
+    "Application.Lambda_FI_Create.executor": "Run",
+    "Application.LazySingletonMain.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.NAdetParametre.executor": "Debug",
+    "Application.Personal_Jaxb.executor": "Run",
+    "Application.PersonelKaydetyadaOku (1).executor": "Run",
+    "Application.PersonelKaydetyadaOku.executor": "Run",
+    "Application.Reflection.executor": "Run",
+    "Application.Reflection_Test.executor": "Run",
+    "Application.RegistrationMain.executor": "Run",
+    "Application.SerilizationOrnek.executor": "Run",
+    "Application.Shapemain.executor": "Run",
+    "Application.SingletonMain (1).executor": "Run",
+    "Application.SingletonMain.executor": "Run",
+    "Application.StrinTokenizerClass.executor": "Run",
+    "Application.StringBufferExample.executor": "Run",
+    "Application.StringBuilder.executor": "Run",
+    "Application.StringBuilder_Example.executor": "Run",
+    "Application.String_Test.executor": "Run",
+    "Application.SuperExample.executor": "Run",
+    "Application.Test (1).executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestMaaslar.executor": "Run",
+    "Application.WeekDays_Test.executor": "Run",
+    "Application.com.example.javamodules.lambdaExpression.Lambda_FI_Create.executor": "Run",
+    "Application.javamodules.jaxb_xml.example.composite.Test.executor": "Run",
+    "Application.javamodules.lambdaExpression.LambdaInstance (1).executor": "Run",
+    "Application.javamodules.lambdaExpression.LambdaInstance.executor": "Run",
+    "Application.javamodules.lambdaExpression.genericinterfacesexample.BinaryOperatorExample.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Lambda_FI_Create.testLambda_FI_Create.executor": "Run",
+    "TestNG.Lambda_FI_Create.testNotFunction.executor": "Run",
+    "TomEE Server.SoapService.executor": "Run",
+    "Tomcat Server.SoapService.executor": "Run",
+    "Tomcat Server.Tomcat 10.1.23.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/anke/IdeaProjects/Backend/MyLoveIsJAVA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="javamodules.lambdaExpression" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/javamodules/generics/example_2" />
+      <recent name="$PROJECT_DIR$/src/designpatterns/repository/spring_repository" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/javamodules/jaxb_xml/example" />
+      <recent name="$PROJECT_DIR$/src/javamodules/lambdaExpression/genericinterfacesexample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/designpatterns/repository/spring_repository" />
+      <recent name="$PROJECT_DIR$/src/javamodules/tricks" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="oop" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javamodules.lambdaExpression.methodreference" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StringBufferExample">
+    <configuration name="StrinTokenizerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javamodules.StrinTokenizerClass" />
+      <module name="myproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javamodules.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBufferExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javamodules.string.StringBufferExample" />
+      <module name="myproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javamodules.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBuilder_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javamodules.string.StringBuilder_Example" />
+      <module name="myproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javamodules.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="String_And_NewString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javamodules.string.String_And_NewString" />
+      <module name="myproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javamodules.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeekDays_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javamodules.enums.WeekDays_Test" />
+      <module name="myproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javamodules.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="5e8b0d7a-9bb2-4c25-b817-aea22b498bcc" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54691" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StrinTokenizerClass" />
+      <item itemvalue="Application.StringBufferExample" />
+      <item itemvalue="Application.StringBuilder_Example" />
+      <item itemvalue="Application.String_And_NewString" />
+      <item itemvalue="Application.WeekDays_Test" />
+      <item itemvalue="Tomcat Server.Tomcat Server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringBufferExample" />
+        <item itemvalue="Application.StringBuilder_Example" />
+        <item itemvalue="Application.String_And_NewString" />
+        <item itemvalue="Application.StrinTokenizerClass" />
+        <item itemvalue="Application.WeekDays_Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="" />
+      <created>1714213207030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714213207030</updated>
+      <workItem from="1714213208137" duration="10553000" />
+      <workItem from="1714302048618" duration="113000" />
+      <workItem from="1714302217945" duration="134000" />
+      <workItem from="1714302356148" duration="132000" />
+      <workItem from="1714302493177" duration="158000" />
+      <workItem from="1714302660436" duration="11227000" />
+      <workItem from="1714480794159" duration="12000" />
+      <workItem from="1714480823012" duration="6000" />
+      <workItem from="1714486184592" duration="10697000" />
+      <workItem from="1714765704430" duration="4818000" />
+      <workItem from="1714818736128" duration="5189000" />
+      <workItem from="1714830452353" duration="5357000" />
+      <workItem from="1714941745194" duration="14764000" />
+      <workItem from="1714997961799" duration="4708000" />
+      <workItem from="1715027548205" duration="2832000" />
+      <workItem from="1715089680216" duration="23536000" />
+      <workItem from="1715205957429" duration="6716000" />
+      <workItem from="1715212831810" duration="272000" />
+      <workItem from="1715213961570" duration="620000" />
+      <workItem from="1715249722527" duration="19252000" />
+      <workItem from="1715345320930" duration="2067000" />
+      <workItem from="1715354065199" duration="3847000" />
+      <workItem from="1715538748978" duration="7958000" />
+      <workItem from="1715606198601" duration="12294000" />
+      <workItem from="1715687995045" duration="1983000" />
+      <workItem from="1715689988036" duration="791000" />
+      <workItem from="1715691249699" duration="68000" />
+      <workItem from="1715691458560" duration="239000" />
+      <workItem from="1715691954775" duration="39000" />
+      <workItem from="1715692263051" duration="24000" />
+      <workItem from="1715695043376" duration="1043000" />
+      <workItem from="1715705151155" duration="915000" />
+      <workItem from="1715716529123" duration="70000" />
+      <workItem from="1715717668163" duration="84000" />
+      <workItem from="1715806346344" duration="115000" />
+      <workItem from="1715891987750" duration="179000" />
+      <workItem from="1716253865970" duration="2668000" />
+      <workItem from="1716578353740" duration="1825000" />
+      <workItem from="1716582370893" duration="126000" />
+      <workItem from="1716583645642" duration="1937000" />
+      <workItem from="1716656879661" duration="1579000" />
+      <workItem from="1716663729356" duration="1288000" />
+      <workItem from="1716743963629" duration="13000" />
+      <workItem from="1716763782159" duration="2146000" />
+      <workItem from="1716843384208" duration="951000" />
+      <workItem from="1716905403060" duration="14000" />
+      <workItem from="1716937539916" duration="2345000" />
+      <workItem from="1717360134172" duration="2051000" />
+      <workItem from="1717374680264" duration="76000" />
+      <workItem from="1717374796216" duration="73000" />
+      <workItem from="1717374879758" duration="169000" />
+      <workItem from="1717375054113" duration="101000" />
+      <workItem from="1717375166297" duration="2975000" />
+    </task>
+    <task id="LOCAL-00001" summary="misc.xml is added">
+      <option name="closed" value="true" />
+      <created>1714302424608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714302424608</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="misc.xml is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="misc.xml is added" />
+  </component>
+</project>
