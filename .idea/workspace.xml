@@ -156,6 +156,7 @@
     "TomEE Server.SoapService.executor": "Run",
     "Tomcat Server.SoapService.executor": "Run",
     "Tomcat Server.Tomcat 10.1.23.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/anke/IdeaProjects/Backend/MyLoveIsJAVA",
     "node.js.detected.package.eslint": "true",
