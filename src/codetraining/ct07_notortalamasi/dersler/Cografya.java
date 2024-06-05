@@ -5,10 +5,7 @@ import codetraining.ct07_notortalamasi.ogrenciler.IOgrenci;
 public class Cografya implements IDersler {
 
     @Override
-    public double dersNotuHesapla(IOgrenci ogrenci, int vize, int finalNot) {
-        System.out.print(
-                ogrenci.getNo()+" nolu "+ogrenci.getAd()+" "+ogrenci.getSoyad()+
-                        " adlı öğrencinin Coğrafya ders notu hesaplandı: ");
-        return (vize * 0.4) + (finalNot * 0.6);
+    public double dersNotuHesapla(IOgrenci ogrenci) {
+        return ogrenci.getVize() * 0.4 + ogrenci.getFinalNot() * 0.6;
     }
 }

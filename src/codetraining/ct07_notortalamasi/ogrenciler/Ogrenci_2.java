@@ -4,6 +4,8 @@ public class Ogrenci_2 implements IOgrenci{
     private String ad;
     private String soyad;
     private int no;
+    private int vize;
+    private int finalNot;
 
     public Ogrenci_2() {
 
@@ -16,18 +18,12 @@ public class Ogrenci_2 implements IOgrenci{
     }
 
     @Override
-    public int vize() {
-        return (int) (Math.random() * 60) + 50;
-    }
-
-    @Override
-    public int finalNot() {
-        return (int) (Math.random() * 100);
-    }
-
-    @Override
     public String getAd() {
         return ad;
+    }
+
+    public void setAd(String ad) {
+        this.ad = ad;
     }
 
     @Override
@@ -35,8 +31,34 @@ public class Ogrenci_2 implements IOgrenci{
         return soyad;
     }
 
+    public void setSoyad(String soyad) {
+        this.soyad = soyad;
+    }
+
     @Override
-    public String getNo() {
-        return String.valueOf(no);
+    public int getNo() {
+        return no;
+    }
+
+    public void setNo(int no) {
+        this.no = no;
+    }
+
+    public int getVize() {
+        return vize;
+    }
+
+    @Override
+    public void setVize(int vize) {
+        this.vize = vize;
+    }
+
+    public int getFinalNot() {
+        return finalNot;
+    }
+
+    @Override
+    public void setFinalNot(int finalNot) {
+        this.finalNot = finalNot;
     }
 }

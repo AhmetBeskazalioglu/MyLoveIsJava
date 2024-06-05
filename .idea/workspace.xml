@@ -5,357 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
-      <change afterPath="$PROJECT_DIR$/src/codetraining/CT04_Abstract_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/postgresql-42.7.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javamodules/enums/EnumMethodExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javamodules/string/String_Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/javaturk.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch01/Selam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch01/SelamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch02/Blocks$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch02/Blocks$InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch02/Blocks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch02/Comments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch02/Naming.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch02/Selam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch02/SelamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch02/ValuesOfExpressions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch02/WeirdComments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch02/car/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch02/car/CarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/ConstantVariables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/FinalVariables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/ScopeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/StackDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/Types.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/VarDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/Variables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/conversions/NarrowingConversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/conversions/WideningConversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/primitives/Primitives.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/primitives/characters/Characters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/primitives/characters/EnvironmentInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/primitives/characters/Escapes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/primitives/characters/TurkishCharacters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/primitives/characters/UnicodeSelam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/primitives/numbers/BinaryOctalHexadecimalIntegers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/primitives/numbers/FloatingPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/primitives/numbers/Underscores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/references/PrimitivesAndReferences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/references/car/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/references/car/CarReferences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch03/references/car/CarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/ArithmeticPromotion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/AssignmentOperator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/BinaryPromotion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/BitwiseLogicalOperators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/CharConcat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/ConditionalOperators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/ListCapacityCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/OperatorPrecedence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/RangeComparision.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/RelationalOperators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/ShiftOperators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/StringConcat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/TernaryOperator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/UnaryIncAndDecOperators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/UnaryLogicalOperator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/UnaryOperators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch04/UnaryPromotion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/BreakAndContinue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/BreakAndContinueWithLabel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/BreakDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/ContinueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/ReturnDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/StackOverflowError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/StatementProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/UnreachableCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/algorithm/FactorialByFor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/algorithm/FactorialByRecursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/algorithm/StackOverflow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/decision/DanglingElse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/decision/IfElseDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/decision/IfWithAssignment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/decision/StringInSwitchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/decision/SwitchCaseExpression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/decision/SwitchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/decision/TernaryOperatorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/loop/ComplexWhile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/loop/DoWhileDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/loop/ForAndWhile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/loop/ForDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/loop/HaltingProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/loop/ListCharacters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/loop/ListCharactersWithIf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch05/loop/WhileDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch06/ArrayAsParameter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch06/ArrayDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch06/ArraysDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch06/ForEach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch06/MainDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch06/MultiDimArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch06/Pizza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch06/assignment/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch06/assignment/QueueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch06/assignment/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch06/assignment/StackTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch07/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch07/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/calculator/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/calculator/DirtyCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/calculator/StatefulCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/car/attribute/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/car/attribute/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/car/composite/CD1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/car/composite/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/car/composite/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/car/composite/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/constant/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/constant/FinalParameter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/init/InitialValues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/overloading/CalculatorOverloaded.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/overloading/OverloadingOverReturnType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/overloading/PrimitiveOverloading1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/overloading/PrimitiveOverloading2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/passing/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/passing/ObjectPassing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/passing/ParameterPassing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/passing/W.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/university/CD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/university/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/university/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/university/Professor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/university/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/university/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/varArg/VarArgMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch08/varArg/VarArgMethodProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/constructor/argConst/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/constructor/noArg/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/constructor/noConst/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/constructor/overloaded/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/constructor/overloaded/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/constructor/problem/FakeConstructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/constructor/problem/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/constructor/thisCall/ThisProblems.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/constructor/thisCall/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/finals/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/finals/FinalInitialization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/initializers/InitialValues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/initializers/InitializerBlocks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/initializers/InitializerMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/initializers/MemberDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/initializers/problem/ForwardReferences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/initializers/problem/InitializationProblem1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/initializers/problem/InitializationProblem2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/initializers/problem/InitializationProblem3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/initializers/problem/InitializationProblem4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/initializers/problem/InitializationSolution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/initializers/problem/InitializerBlockProblems.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/order/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/order/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/order/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/order/ClassA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/order/ClassAA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/order/ClassB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/order/ClassInitializationOrder1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/order/ClassInitializationOrder2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/order/D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/order/InitializationOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/init/order/ObjectConstruction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/statik/Citizen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/statik/Geometry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/statik/MathDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/statik/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/statik/PovertyOfANewBieJavaProgrammer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/statik/StaticAccess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/statik/StaticDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/statik/SystemDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/thisKeyword/ThisDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/thisKeyword/ThisTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/thisKeyword/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/thisKeyword/bank/BankTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/thisKeyword/bank/CreditCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/thisKeyword/bank/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/tree/TreeWithArgumentConstructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/tree/TreeWithDefaultConstructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/tree/TreeWithOverloadedConstructors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/tree/TreeWithThis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch09/tree/TreesWithoutReferences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/compiling/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/compiling/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/compiling/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/compiling/Code.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/compiling/D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/CD1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/HerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/HisClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/packageA/ClassA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/packageB/ClassB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/packageB/ClassC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/packageB/ClassD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/packageX/ClassX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/packageX/ClassZ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/sameName/Date.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/sameName/DateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/staticImport/AClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch10/packaging/staticImport/StaticImport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/access/classAccess/ClassA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/access/classAccess/ClassB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/access/classAccess/x/ClassXX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/access/classAccess/x/ClassZZ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/access/memberAccess/ClassA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/access/memberAccess/p/ClassA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/access/memberAccess/p/ClassP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/bean/Date.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/immutable/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/immutable/ImmutableRGB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/immutable/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/setget/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch11/setget/WindowTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/ObjectClass/CloneExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/ObjectClass/EqualityExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/ObjectClass/HashCodeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/ObjectClass/ToStringExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/ObjectClass/domain/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/ObjectClass/domain/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/composition/CD1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/composition/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/composition/CarTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/composition/Door.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/composition/Engine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/composition/Transmission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/composition/Wheel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory1/CD1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory1/Director.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory1/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory1/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory1/ReadMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory1/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory2/CD1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory2/Director.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory2/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory2/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory2/ReadMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory2/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory3/CD1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory3/Director.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory3/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory3/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory3/ReadMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/factories/factory3/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/access/protect/AccessTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/access/protect/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/access/protect/Parent1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/access/protect/aPackage/Parent2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/covariant/CD1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/covariant/HR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/covariant/HRForManagers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/covariant/HRTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/finals/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/finals/ChildOfChild.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/finals/ChildOfChildOfChild.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/finals/FinaMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/finals/FinalClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/finals/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/hiding/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/hiding/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/hiding/CD1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/hiding/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/hiding/HidingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/hiding/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/hiding/StaticOverridingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/hiding/SuperExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/ClassA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/ClassB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/ClassC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/ClassInitializationForStatics CD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/ClassInitializationForStatics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/InitializationOrder CD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/InitializationOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/U.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/W.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/X.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/Y.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/init/Z.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/overriding/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/overriding/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/overriding/RestrictiveOverrding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/substitutability/CD1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/substitutability/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/substitutability/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch12/inheritance/substitutability/SubstitutabilityExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/newApi/ClockExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/newApi/HijrahExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/newApi/InstantExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/newApi/PeriodExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/newApi/local/LocalDateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/newApi/local/LocalDateTimeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/newApi/local/LocalTimeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/newApi/zone/OffsetDateTimeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/newApi/zone/ZoneIdExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/newApi/zone/ZoneOffsetExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/newApi/zone/ZonedDateTimeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/oldApi/AvailableLocales.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/oldApi/CalendarAndDateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/oldApi/CalendarExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/oldApi/DateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/oldApi/FormatExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/oldApi/OldExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/oldApi/TimeZoneExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/dateAndTime/oldApi/TimingExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/AnEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/AnotherEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/constants/DateConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/date/Date1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/date/Date2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/date/Date3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/date/Date4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/date/DateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/date/dateEnums/DayOfMonth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/date/dateEnums/Month.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/date/dateEnums/Year.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/day/Calendar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/day/Day.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/day/Days.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/day/EnumSwitchDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/day/EnumSwitchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/size/Size.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/enums/size/Sizes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/javadoc/Bulb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/javadoc/BulbBlownException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/javadoc/BulbTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/math/BigDecimalExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/math/BigIntegerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/math/Factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/math/MathDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/random/RandomExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/singleFile/selam1/Selam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/singleFile/selam2/Greeting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/singleFile/selam2/SelamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/singleFile/selam2/Selamlama.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/string/PasswordBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/string/StringBufferAndStringBuilderExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/string/StringEquality.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/string/StringExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/string/StringJoin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/string/StringPerformanceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/string/StringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/string/StringTokenizerExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/string/SubStringExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/ch13/wrapper/Wrappers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/hw/ch02/NamingProblems.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/javaturk/oopj/hw/ch02/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/postgresql-42.7.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/CT07_NotOrtalamasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/CT07_NotOrtalamasi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/Okul_Idaresi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/Okul_Idaresi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Cografya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Cografya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Dersler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Fizik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Fizik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/IDersler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/IDersler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Ingilizce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Ingilizce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Kimya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Kimya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Matematik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Matematik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Tarih.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Tarih.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Turkce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/dersler/Turkce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/ogrenciler/IOgrenci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/ogrenciler/IOgrenci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/ogrenciler/Ogrenci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/ogrenciler/Ogrenci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/ogrenciler/Ogrenci_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/ogrenciler/Ogrenci_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/ogrenciler/Ogrenci_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/ct07_notortalamasi/ogrenciler/Ogrenci_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/CT07_NotOrtalamasi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/CT07_NotOrtalamasi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/Okul_Idaresi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/Okul_Idaresi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Cografya.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Cografya.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Dersler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Fizik.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Fizik.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/IDersler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/IDersler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Ingilizce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Ingilizce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Kimya.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Kimya.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Matematik.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Matematik.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Tarih.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Tarih.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Turkce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/dersler/Turkce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/ogrenciler/IOgrenci.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/ogrenciler/IOgrenci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/ogrenciler/Ogrenci.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/ogrenciler/Ogrenci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/ogrenciler/Ogrenci_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/ogrenciler/Ogrenci_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/ogrenciler/Ogrenci_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/ct07_notortalamasi/ogrenciler/Ogrenci_3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -549,7 +229,7 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CT04_Abstract_Test">
+  <component name="RunManager" selected="Application.CT07_NotOrtalamasi">
     <configuration name="CT04_Abstract_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codetraining.CT04_Abstract_Test" />
       <module name="myproject" />
@@ -563,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javamodules.string.StringBufferExample" />
+    <configuration name="CT07_NotOrtalamasi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codetraining.ct07_notortalamasi.CT07_NotOrtalamasi" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javamodules.string.*" />
+          <option name="PATTERN" value="codetraining.ct07_notortalamasi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -696,7 +376,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.CT04_Abstract_Test" />
-      <item itemvalue="Application.StringBufferExample" />
+      <item itemvalue="Application.CT07_NotOrtalamasi" />
       <item itemvalue="Application.StringBuilder_Example" />
       <item itemvalue="Application.String_And_NewString" />
       <item itemvalue="Application.WeekDays_Test" />
@@ -704,11 +384,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CT07_NotOrtalamasi" />
         <item itemvalue="Application.CT04_Abstract_Test" />
         <item itemvalue="Application.String_And_NewString" />
         <item itemvalue="Application.WeekDays_Test" />
         <item itemvalue="Application.StringBuilder_Example" />
-        <item itemvalue="Application.StringBufferExample" />
       </list>
     </recent_temporary>
   </component>
@@ -783,7 +463,7 @@
       <workItem from="1717375166297" duration="2975000" />
       <workItem from="1717378772037" duration="1369000" />
       <workItem from="1717382007679" duration="55000" />
-      <workItem from="1717544382870" duration="774000" />
+      <workItem from="1717544382870" duration="4984000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />

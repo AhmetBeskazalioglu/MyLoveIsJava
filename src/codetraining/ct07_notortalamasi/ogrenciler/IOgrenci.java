@@ -1,15 +1,13 @@
 package codetraining.ct07_notortalamasi.ogrenciler;
 
-
 public interface IOgrenci {
 
-int vize();
-int finalNot();
+void setVize(int vize);
+void setFinalNot(int finalNot);
+int getVize();
+int getFinalNot();
 String getAd();
 String getSoyad();
-String getNo();
-
-
-
+int getNo();
 
 }

@@ -1,6 +1,7 @@
 package codetraining.ct07_notortalamasi;
 
 import codetraining.ct07_notortalamasi.dersler.*;
+import codetraining.ct07_notortalamasi.ogrenciler.IOgrenci;
 import codetraining.ct07_notortalamasi.ogrenciler.Ogrenci;
 import codetraining.ct07_notortalamasi.ogrenciler.Ogrenci_2;
 import codetraining.ct07_notortalamasi.ogrenciler.Ogrenci_3;
@@ -18,29 +19,27 @@ public class CT07_NotOrtalamasi {
         Tarih tarihDersi = new Tarih();
         Ingilizce ingilizceDersi = new Ingilizce();
 
-        Ogrenci ogrenci = new Ogrenci("Ahmet", "Yılmaz", 123);
-        Ogrenci_2 ogrenci_2 = new Ogrenci_2("Ali", "Çentik", 125);
-        Ogrenci_3 ogrenci_3 = new Ogrenci_3("Veli", "Kara", 126);
+        IOgrenci ogrenci = new Ogrenci("Ahmet", "Yılmaz", 123);
+        IOgrenci ogrenci_2 = new Ogrenci_2("Ali", "Çentik", 125);
+        IOgrenci ogrenci_3 = new Ogrenci_3("Veli", "Kara", 126);
 
-        Dersler turkce =new Dersler(turkceDersi);
-        turkce.durumHesapla(turkce.ilgiliDersNotu(ogrenci, ogrenci.vize(), ogrenci.finalNot()));
-        System.out.println("************************************");
+        IDersler[] dersler = {turkceDersi, matematikDersi, fizikDersi, kimyaDersi, cografyaDersi, tarihDersi, ingilizceDersi};
 
-        Dersler matematik =new Dersler(matematikDersi);
-        matematik.durumHesapla(matematik.ilgiliDersNotu(ogrenci_2, ogrenci_2.vize(), ogrenci_2.finalNot()));
-        System.out.println("************************************");
+        Okul_Idaresi okul_Idaresi = new Okul_Idaresi();
 
-        Dersler fizik =new Dersler(fizikDersi);
-        fizik.durumHesapla(fizik.ilgiliDersNotu(ogrenci_3, ogrenci_3.vize(), ogrenci_3.finalNot()));
-        System.out.println("************************************");
-
-        turkce.durumHesapla(turkce.ilgiliDersNotu(ogrenci_3, ogrenci_3.vize(), ogrenci_3.finalNot()));
-        System.out.println("************************************");
-
-
-
-
-
+        okul_Idaresi.durumHesapla(okul_Idaresi.ilgiliDersNotu(ogrenci, turkceDersi));
+        System.out.println("**********************************");
+        okul_Idaresi.durumHesapla(okul_Idaresi.ilgiliDersNotu(ogrenci_2, matematikDersi));
+        System.out.println("**********************************");
+        okul_Idaresi.durumHesapla(okul_Idaresi.ilgiliDersNotu(ogrenci_3, fizikDersi));
+        System.out.println("**********************************");
+        okul_Idaresi.durumHesapla(okul_Idaresi.ilgiliDersNotu(ogrenci, kimyaDersi));
+        System.out.println("**********************************");
+        okul_Idaresi.durumHesapla(okul_Idaresi.ilgiliDersNotu(ogrenci_2, cografyaDersi));
+        System.out.println("**********************************");
+        okul_Idaresi.durumHesapla(okul_Idaresi.ilgiliDersNotu(ogrenci_3, tarihDersi));
+        System.out.println("**********************************");
+        okul_Idaresi.durumHesapla(okul_Idaresi.ilgiliDersNotu(ogrenci, ingilizceDersi));
 
 
 
