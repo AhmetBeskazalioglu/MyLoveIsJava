@@ -11,6 +11,7 @@ class ProxyFileAccess implements FileAccess {
 
     @Override
     public void readFile(String fileName) {
+        // Client'ın isteklerini kontrol eder.
         if (user.isAdmin()) {
             new RealFileAccess(fileName).readFile(fileName);
         } else {

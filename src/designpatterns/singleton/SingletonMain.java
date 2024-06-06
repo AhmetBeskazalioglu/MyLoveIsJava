@@ -71,6 +71,8 @@ class DoubleCheckedLockingSingleton {
     public static DoubleCheckedLockingSingleton getInstance() {
         if (singleton == null) {
             synchronized (DoubleCheckedLockingSingleton.class) {
+                // Eğer Singleton nesnesi hala null ise, yeni bir nesne oluşturulur.
+                // Eğer başka bir thread bu nesneyi zaten oluşturmuşsa, ikinci null kontrolü false döner ve yeni bir nesne oluşturulmaz.
                 if (singleton == null) {
                     singleton = new DoubleCheckedLockingSingleton();
                 }
@@ -125,5 +127,7 @@ public class SingletonMain {
         } else {
             System.out.println("Bu nesneler birbirlerinden farklı");
         }
+
+        EnumSingleton.INSTANCE.getSingleton();
     }
 }
