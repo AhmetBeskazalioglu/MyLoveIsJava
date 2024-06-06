@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
-      <change afterPath="$PROJECT_DIR$/src/codetraining/CT09_Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codetraining/ct08_maashesaplama/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codetraining/ct08_maashesaplama/Employee_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codetraining/ct08_maashesaplama/Employees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/proxy/fileaccess/FileAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/proxy/fileaccess/ProxyDesignPattern_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/proxy/fileaccess/ProxyFileAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/proxy/fileaccess/RealFileAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/proxy/fileaccess/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Record" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -108,6 +109,7 @@
     "Application.BinaryOperatorExample.executor": "Run",
     "Application.CT04_Abstract_Test.executor": "Run",
     "Application.CT07_NotOrtalamasi.executor": "Run",
+    "Application.CT09_Taxi.executor": "Run",
     "Application.CanNotBeAbstract.executor": "Run",
     "Application.Employee_Test.executor": "Run",
     "Application.EnumMethodExample.executor": "Run",
@@ -177,7 +179,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -438,7 +440,8 @@
       <workItem from="1717375166297" duration="2975000" />
       <workItem from="1717378772037" duration="1369000" />
       <workItem from="1717382007679" duration="55000" />
-      <workItem from="1717544382870" duration="7157000" />
+      <workItem from="1717544382870" duration="7438000" />
+      <workItem from="1717697240480" duration="2098000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
@@ -465,5 +468,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="misc.xml is added" />
     <option name="LAST_COMMIT_MESSAGE" value="misc.xml is added" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
