@@ -1,12 +1,12 @@
 package designpatterns.proxy.image;
 
 // Adım 1: Subject Interface
-public interface Image {
+interface Image {
     void display();
 }
 
 // Adım 2: RealSubject Class
-public class RealImage implements Image {
+class RealImage implements Image {
     private String fileName;
 
     public RealImage(String fileName) {
@@ -25,7 +25,7 @@ public class RealImage implements Image {
 }
 
 // Adım 3: Proxy Class
-public class ProxyImage implements Image {
+class ProxyImage implements Image {
     private RealImage realImage;
     private String fileName;
 
