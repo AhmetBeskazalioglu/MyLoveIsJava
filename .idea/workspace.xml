@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
-      <change afterPath="$PROJECT_DIR$/src/designpatterns/singleton/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/HouseDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/IBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designpatterns/builder/IglooHouseBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/proxy/fileaccess/ProxyFileAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/proxy/fileaccess/ProxyFileAccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/singleton/SingletonMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/singleton/SingletonMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +21,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -109,6 +111,7 @@
     "Application.CT07_NotOrtalamasi.executor": "Run",
     "Application.CT09_Taxi.executor": "Run",
     "Application.CanNotBeAbstract.executor": "Run",
+    "Application.Client.executor": "Run",
     "Application.Employee_Test.executor": "Run",
     "Application.EnumMethodExample.executor": "Run",
     "Application.EvenNumberOperationsWithLambda.executor": "Run",
@@ -205,13 +208,13 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonMain">
-    <configuration name="CT07_NotOrtalamasi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codetraining.ct07_notortalamasi.CT07_NotOrtalamasi" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="CT09_Taxi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codetraining.CT09_Taxi" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codetraining.ct07_notortalamasi.*" />
+          <option name="PATTERN" value="codetraining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CT09_Taxi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codetraining.CT09_Taxi" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.Client" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codetraining.*" />
+          <option name="PATTERN" value="designpatterns.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,20 +354,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Client" />
       <item itemvalue="Application.ProxyDesignPattern_Test" />
       <item itemvalue="Application.SingletonMain" />
-      <item itemvalue="Application.CT07_NotOrtalamasi" />
       <item itemvalue="Application.CT09_Taxi" />
       <item itemvalue="Application.Employee_Test" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.SingletonMain" />
         <item itemvalue="Application.ProxyDesignPattern_Test" />
         <item itemvalue="Application.CT09_Taxi" />
         <item itemvalue="Application.Employee_Test" />
-        <item itemvalue="Application.CT07_NotOrtalamasi" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +444,7 @@
       <workItem from="1717382007679" duration="55000" />
       <workItem from="1717544382870" duration="7438000" />
       <workItem from="1717697240480" duration="2098000" />
-      <workItem from="1717700155562" duration="3824000" />
+      <workItem from="1717700155562" duration="12748000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
