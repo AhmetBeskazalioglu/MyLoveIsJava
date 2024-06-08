@@ -106,10 +106,17 @@ public class Person {
         Person person2 = new Person(personBuilder);
 
         // reflection ile Person class'ının deişkenlerine assign edeceğiz.
-        /*Class clazz = Person.class;
+        Class clazz = Person.class;
         Field[] fields = clazz.getDeclaredFields();
         for (Field field : fields) {
             field.setAccessible(true);
+            if (field.getName().equals("firstName")) {
+                try {
+                    field.set(person2, "Alice");
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                }
+            }
             try {
                 if (field.getName().equals("age")) {
                     field.set(person2, 37);
@@ -121,7 +128,7 @@ public class Person {
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }
-        }*/
+        }
         System.out.println(person2);
     }
 }
