@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/builder/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/builder/person/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designpatterns/builder/person/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpatterns/builder/person/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/designpatterns/builder/person/finalDeneme.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpatterns/builder/person/finalDeneme.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,8 +371,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
       </set>
     </attachedChunks>
   </component>
@@ -445,7 +442,9 @@
       <workItem from="1717544382870" duration="7438000" />
       <workItem from="1717697240480" duration="2098000" />
       <workItem from="1717700155562" duration="19009000" />
-      <workItem from="1717805722114" duration="2186000" />
+      <workItem from="1717805722114" duration="2211000" />
+      <workItem from="1717964871816" duration="12000" />
+      <workItem from="1718008022657" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
