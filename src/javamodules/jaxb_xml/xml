@@ -1,0 +1,33 @@
+**JAXB (Java Architecture for XML Binding)**
+
+- Java'da XML verilerini, Java nesnelerine dönüştürmeyi ve Java nesnelerinden XML oluşturmayı kolaylaştıran bir API'dir.
+- XML verilerinin okunmasını, yazılmasını ve doğrulanmasını otomatikleştirerek geliştiricilerin XML ile çalışırken harcayacakları manuel kod yazma işini azaltır.
+- Web servisleri ve XML tabanlı yapılandırma dosyalarının kullanımının yaygın olduğu uygulamalarda kritik öneme sahiptir.
+
+---
+
+### Must
+
+1. Dependency indirilmesi gerekiyor.
+2. xml yapısına döndürülecek olan sınıfın başına `@XmlRootElement` annotation ı getirilir.
+
+      	<!-- javax.xml.bind -->
+        <!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-impl -->
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>2.3.1</version> <scope>runtime</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-core -->
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-core</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+        
