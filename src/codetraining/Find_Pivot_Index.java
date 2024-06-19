@@ -5,7 +5,6 @@ public class Find_Pivot_Index {
         int[] nums = {2,1,-1};
         System.out.println(pivot(nums));
     }
-
     public static int pivot(int[] nums){
 
         for (int i = 0; i < nums.length; i++) {
