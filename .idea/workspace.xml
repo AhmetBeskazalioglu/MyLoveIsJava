@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
-      <change afterPath="$PROJECT_DIR$/src/codetraining/Dominant_Index.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codetraining/Plus_One.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/Find_Pivot_Index.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/Find_Pivot_Index.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +108,7 @@
     "Application.CT09_Taxi.executor": "Run",
     "Application.CanNotBeAbstract.executor": "Run",
     "Application.Client.executor": "Run",
-    "Application.Dominant_Index.executor": "Run",
+    "Application.Dominant_Index.executor": "Debug",
     "Application.Employee_Test.executor": "Run",
     "Application.EnumMethodExample.executor": "Run",
     "Application.EvenNumberOperationsWithLambda.executor": "Run",
@@ -138,6 +135,7 @@
     "Application.Personal_Jaxb.executor": "Run",
     "Application.PersonelKaydetyadaOku (1).executor": "Run",
     "Application.PersonelKaydetyadaOku.executor": "Run",
+    "Application.Plus_One.executor": "Debug",
     "Application.ProxyDesignPattern_Test.executor": "Run",
     "Application.Reflection.executor": "Run",
     "Application.Reflection_Test.executor": "Run",
@@ -207,10 +205,11 @@
       <recent name="oop" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="codetraining" />
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dominant_Index">
+  <component name="RunManager" selected="Application.Plus_One">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpatterns.builder.house.Client" />
       <module name="myproject" />
@@ -250,12 +249,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.singleton.SingletonMain" />
+    <configuration name="Plus_One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codetraining.Plus_One" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.singleton.*" />
+          <option name="PATTERN" value="codetraining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,19 +356,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Dominant_Index" />
+      <item itemvalue="Application.Plus_One" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Person" />
-      <item itemvalue="Application.SingletonMain" />
       <item itemvalue="Application.finalDeneme" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Plus_One" />
         <item itemvalue="Application.Dominant_Index" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.finalDeneme" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.SingletonMain" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +449,7 @@
       <workItem from="1717805722114" duration="2211000" />
       <workItem from="1717964871816" duration="12000" />
       <workItem from="1718008022657" duration="1248000" />
-      <workItem from="1719922124423" duration="742000" />
+      <workItem from="1719922124423" duration="4154000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
@@ -477,6 +476,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="misc.xml is added" />
     <option name="LAST_COMMIT_MESSAGE" value="misc.xml is added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codetraining/Plus_One.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
