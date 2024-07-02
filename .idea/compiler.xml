@@ -7,10 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="myproject" />
-<<<<<<< HEAD
-=======
-        <module name="MyLoveIsJava" />
->>>>>>> new-remote/main
       </profile>
     </annotationProcessing>
   </component>

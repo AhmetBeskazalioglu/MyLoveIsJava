@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
+      <change afterPath="$PROJECT_DIR$/src/codetraining/Dominant_Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/Find_Pivot_Index.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/Find_Pivot_Index.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,95 +97,96 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AbstractClassExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArabaKayitFormuWithEnumSingletonDP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayManipulation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayPrint.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AsalSayi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryOperatorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CT04_Abstract_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CT07_NotOrtalamasi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CT09_Taxi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CanNotBeAbstract.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Employee_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumMethodExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenNumberOperationsWithLambda.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Faker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Faktoriyel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericInterfaceInstance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics_Methods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB_List.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB_ListFromDatabase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB_List_Marshal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB_List_Unmarshal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB_Marshal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB_Unmarshal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JpaTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaInstance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lambda_FI_Create (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lambda_FI_Create.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LazySingletonMain.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NAdetParametre.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Personal_Jaxb.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PersonelKaydetyadaOku (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.PersonelKaydetyadaOku.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProxyDesignPattern_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reflection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reflection_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RegistrationMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SerilizationOrnek.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Shapemain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonMain (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StrinTokenizerClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBufferExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBuilder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBuilder_Example.executor&quot;: &quot;Run&quot;,
-    &quot;Application.String_And_NewString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.String_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SuperExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestMaaslar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WeekDays_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.example.javamodules.lambdaExpression.Lambda_FI_Create.executor&quot;: &quot;Run&quot;,
-    &quot;Application.finalDeneme.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javamodules.jaxb_xml.example.composite.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javamodules.lambdaExpression.LambdaInstance (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.javamodules.lambdaExpression.LambdaInstance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javamodules.lambdaExpression.genericinterfacesexample.BinaryOperatorExample.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.Lambda_FI_Create.testLambda_FI_Create.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Lambda_FI_Create.testNotFunction.executor&quot;: &quot;Run&quot;,
-    &quot;TomEE Server.SoapService.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.SoapService.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.Tomcat 10.1.23.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/anke/IdeaProjects/Backend/Anke_MyLoveIsJAVA&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractClassExample.executor": "Run",
+    "Application.ArabaKayitFormuWithEnumSingletonDP.executor": "Run",
+    "Application.Array.executor": "Run",
+    "Application.ArrayManipulation.executor": "Run",
+    "Application.ArrayPrint.executor": "Run",
+    "Application.AsalSayi.executor": "Run",
+    "Application.BinaryOperatorExample.executor": "Run",
+    "Application.CT04_Abstract_Test.executor": "Run",
+    "Application.CT07_NotOrtalamasi.executor": "Run",
+    "Application.CT09_Taxi.executor": "Run",
+    "Application.CanNotBeAbstract.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.Dominant_Index.executor": "Run",
+    "Application.Employee_Test.executor": "Run",
+    "Application.EnumMethodExample.executor": "Run",
+    "Application.EvenNumberOperationsWithLambda.executor": "Run",
+    "Application.Faker.executor": "Run",
+    "Application.Faktoriyel.executor": "Run",
+    "Application.GenericInterfaceInstance.executor": "Run",
+    "Application.Generics_Methods.executor": "Run",
+    "Application.Generics_Test.executor": "Run",
+    "Application.JAXB.executor": "Run",
+    "Application.JAXB_List.executor": "Run",
+    "Application.JAXB_ListFromDatabase.executor": "Run",
+    "Application.JAXB_List_Marshal.executor": "Run",
+    "Application.JAXB_List_Unmarshal.executor": "Run",
+    "Application.JAXB_Marshal.executor": "Run",
+    "Application.JAXB_Unmarshal.executor": "Run",
+    "Application.JpaTest.executor": "Run",
+    "Application.LambdaInstance.executor": "Run",
+    "Application.Lambda_FI_Create (1).executor": "Run",
+    "Application.Lambda_FI_Create.executor": "Run",
+    "Application.LazySingletonMain.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.NAdetParametre.executor": "Debug",
+    "Application.Person.executor": "Run",
+    "Application.Personal_Jaxb.executor": "Run",
+    "Application.PersonelKaydetyadaOku (1).executor": "Run",
+    "Application.PersonelKaydetyadaOku.executor": "Run",
+    "Application.ProxyDesignPattern_Test.executor": "Run",
+    "Application.Reflection.executor": "Run",
+    "Application.Reflection_Test.executor": "Run",
+    "Application.RegistrationMain.executor": "Run",
+    "Application.SerilizationOrnek.executor": "Run",
+    "Application.Shapemain.executor": "Run",
+    "Application.SingletonMain (1).executor": "Run",
+    "Application.SingletonMain.executor": "Run",
+    "Application.StrinTokenizerClass.executor": "Run",
+    "Application.StringBufferExample.executor": "Run",
+    "Application.StringBuilder.executor": "Run",
+    "Application.StringBuilder_Example.executor": "Run",
+    "Application.String_And_NewString.executor": "Run",
+    "Application.String_Test.executor": "Run",
+    "Application.SuperExample.executor": "Run",
+    "Application.Test (1).executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestMaaslar.executor": "Run",
+    "Application.WeekDays_Test.executor": "Run",
+    "Application.com.example.javamodules.lambdaExpression.Lambda_FI_Create.executor": "Run",
+    "Application.finalDeneme.executor": "Run",
+    "Application.javamodules.jaxb_xml.example.composite.Test.executor": "Run",
+    "Application.javamodules.lambdaExpression.LambdaInstance (1).executor": "Run",
+    "Application.javamodules.lambdaExpression.LambdaInstance.executor": "Run",
+    "Application.javamodules.lambdaExpression.genericinterfacesexample.BinaryOperatorExample.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Lambda_FI_Create.testLambda_FI_Create.executor": "Run",
+    "TestNG.Lambda_FI_Create.testNotFunction.executor": "Run",
+    "TomEE Server.SoapService.executor": "Run",
+    "Tomcat Server.SoapService.executor": "Run",
+    "Tomcat Server.Tomcat 10.1.23.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/anke/IdeaProjects/Backend/Anke/Anke_My-Love-Is-JAVA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="javamodules.lambdaExpression" />
@@ -205,7 +210,7 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Person">
+  <component name="RunManager" selected="Application.Dominant_Index">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="designpatterns.builder.house.Client" />
       <module name="myproject" />
@@ -219,12 +224,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.person.Person" />
+    <configuration name="Dominant_Index" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codetraining.Dominant_Index" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.builder.person.*" />
+          <option name="PATTERN" value="codetraining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +237,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyDesignPattern_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpatterns.proxy.fileaccess.ProxyDesignPattern_Test" />
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpatterns.builder.person.Person" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpatterns.proxy.fileaccess.*" />
+          <option name="PATTERN" value="designpatterns.builder.person.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,28 +356,28 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Dominant_Index" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Person" />
-      <item itemvalue="Application.ProxyDesignPattern_Test" />
       <item itemvalue="Application.SingletonMain" />
       <item itemvalue="Application.finalDeneme" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dominant_Index" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.finalDeneme" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.SingletonMain" />
-        <item itemvalue="Application.ProxyDesignPattern_Test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -445,6 +450,7 @@
       <workItem from="1717805722114" duration="2211000" />
       <workItem from="1717964871816" duration="12000" />
       <workItem from="1718008022657" duration="1248000" />
+      <workItem from="1719922124423" duration="742000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
