@@ -1,7 +1,5 @@
-package codetraining;
+package codetraining.leetcode;
 
-
-import java.util.Arrays;
 
 public class Plus_One {
     public int[] plusOne(int[] digits) {

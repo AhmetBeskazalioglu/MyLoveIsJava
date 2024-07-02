@@ -1,4 +1,4 @@
-package codetraining;
+package codetraining.leetcode;
 
 public class Dominant_Index {
     public int dominantIndex(int[] nums) {
