@@ -1,0 +1,7 @@
+`•	Static üyeler (static metotlar ve değişkenler), sınıf yüklendiği anda belleğe alınır.`
+
+`•	Non-static değişkenler ise ancak bir nesne oluşturulduktan sonra belleğe yüklenir. Dolayısıyla, static metot çağrıldığında,
+        non-static değişkenlerin var olup olmadığı garanti edilemez.`
+
+**`Örnek:`**
+
