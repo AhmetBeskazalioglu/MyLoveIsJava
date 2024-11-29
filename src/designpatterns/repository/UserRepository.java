@@ -1,7 +1,7 @@
 package designpatterns.repository;
 
-import jakarta.persistence.EntityManager;
 
+import javax.persistence.EntityManager;
 import java.util.List;
 
 public class UserRepository implements IUserRepository {
