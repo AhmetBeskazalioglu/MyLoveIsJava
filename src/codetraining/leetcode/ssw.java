@@ -5,11 +5,11 @@ class Solution {
         int count=0;
         for(int i=0;i<nums.length;i++){
             if(nums[i]==val){
-                for(int j=i;j<nums.length-i-1;j++){
+                for(int j=i;j<nums.length-1;j++){
                     nums[j]=nums[j+1];
-                    nums[nums.length-1]=0;
-                    count++;
                 }
+                count++;
+                nums[nums.length-1]=-1;
                 i--;
             }
         }

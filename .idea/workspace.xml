@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
-      <change afterPath="$PROJECT_DIR$/src/codetraining/leetcode/ssw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/leetcode/ssw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/leetcode/ssw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/leetcode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/leetcode/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -473,7 +474,7 @@
       <workItem from="1732220274101" duration="2322000" />
       <workItem from="1732714564879" duration="2918000" />
       <workItem from="1732720529850" duration="700000" />
-      <workItem from="1732909910836" duration="3557000" />
+      <workItem from="1732909910836" duration="4266000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
