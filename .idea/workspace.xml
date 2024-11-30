@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
-      <change afterPath="$PROJECT_DIR$/src/codetraining/leetcode/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codetraining/leetcode/ssw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designpatterns/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designpatterns/repository/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +146,7 @@
     "Application.Shapemain.executor": "Run",
     "Application.SingletonMain (1).executor": "Run",
     "Application.SingletonMain.executor": "Run",
+    "Application.Solution.executor": "Run",
     "Application.Static_Keyword (1).executor": "Run",
     "Application.Static_Keyword.executor": "Run",
     "Application.StrinTokenizerClass.executor": "Run",
@@ -214,7 +214,7 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedArray">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Diagonal_Traverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codetraining.leetcode.Diagonal_Traverse" />
       <module name="myproject" />
@@ -267,12 +267,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Static_Keyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javamodules.statickeyword.Static_Keyword" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codetraining.leetcode.Solution" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javamodules.statickeyword.*" />
+          <option name="PATTERN" value="codetraining.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,7 +374,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.MergeSortedArray" />
-      <item itemvalue="Application.Static_Keyword" />
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Diagonal_Traverse" />
       <item itemvalue="Application.Dominant_Index" />
       <item itemvalue="Application.Plus_One" />
@@ -382,11 +382,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.Plus_One" />
         <item itemvalue="Application.Dominant_Index" />
         <item itemvalue="Application.Diagonal_Traverse" />
-        <item itemvalue="Application.Static_Keyword" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +473,7 @@
       <workItem from="1732220274101" duration="2322000" />
       <workItem from="1732714564879" duration="2918000" />
       <workItem from="1732720529850" duration="700000" />
-      <workItem from="1732909910836" duration="934000" />
+      <workItem from="1732909910836" duration="3557000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
@@ -500,6 +500,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="misc.xml is added" />
     <option name="LAST_COMMIT_MESSAGE" value="misc.xml is added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codetraining/leetcode/ssw.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
