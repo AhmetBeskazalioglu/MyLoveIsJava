@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added" />
+    <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
+      <change afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,6 +133,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MergeSortedArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.NAdetParametre.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NullPointerException.executor&quot;: &quot;Run&quot;,
     &quot;Application.Person.executor&quot;: &quot;Run&quot;,
     &quot;Application.Personal_Jaxb.executor&quot;: &quot;Run&quot;,
     &quot;Application.PersonelKaydetyadaOku (1).executor&quot;: &quot;Run&quot;,
@@ -458,6 +462,8 @@
       <workItem from="1732714564879" duration="2918000" />
       <workItem from="1732720529850" duration="700000" />
       <workItem from="1732909910836" duration="4582000" />
+      <workItem from="1733086361398" duration="1308000" />
+      <workItem from="1733136210050" duration="1114000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
