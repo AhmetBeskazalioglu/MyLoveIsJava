@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
-      <change afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javamodules/loops/LabeledLoops.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,13 +214,13 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NullPointerException">
-    <configuration name="Dominant_Index" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codetraining.leetcode.Dominant_Index" />
+  <component name="RunManager" selected="Application.LabeledLoops">
+    <configuration name="LabeledLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javamodules.loops.LabeledLoops" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codetraining.leetcode.*" />
+          <option name="PATTERN" value="javamodules.loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,20 +360,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LabeledLoops" />
       <item itemvalue="Application.NullPointerException" />
       <item itemvalue="Application.MergeSortedArray" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Dominant_Index" />
       <item itemvalue="Application.Plus_One" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LabeledLoops" />
         <item itemvalue="Application.NullPointerException" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.Plus_One" />
-        <item itemvalue="Application.Dominant_Index" />
       </list>
     </recent_temporary>
   </component>
@@ -463,7 +462,7 @@
       <workItem from="1732720529850" duration="700000" />
       <workItem from="1732909910836" duration="4582000" />
       <workItem from="1733086361398" duration="1308000" />
-      <workItem from="1733136210050" duration="1114000" />
+      <workItem from="1733136210050" duration="2012000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
