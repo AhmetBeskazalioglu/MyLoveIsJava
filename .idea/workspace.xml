@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
-      <change afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/SystemErr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javamodules/collections/map/TreeMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +158,7 @@
     "Application.String_And_NewString.executor": "Run",
     "Application.String_Test.executor": "Run",
     "Application.SuperExample.executor": "Run",
+    "Application.SystemErr.executor": "Run",
     "Application.Test (1).executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestMaaslar.executor": "Run",
@@ -216,7 +217,7 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SystemErr">
+  <component name="RunManager" selected="Application.TreeMapExample">
     <configuration name="Increment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.Increment" />
       <module name="myproject" />
@@ -256,12 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codetraining.leetcode.Solution" />
+    <configuration name="SystemErr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.SystemErr" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codetraining.leetcode.*" />
+          <option name="PATTERN" value="codetraining.freeexamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemErr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.SystemErr" />
+    <configuration name="TreeMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javamodules.collections.map.TreeMapExample" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codetraining.freeexamples.*" />
+          <option name="PATTERN" value="javamodules.collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,18 +365,18 @@
     <list>
       <item itemvalue="Application.Increment" />
       <item itemvalue="Application.SystemErr" />
+      <item itemvalue="Application.TreeMapExample" />
       <item itemvalue="Application.LabeledLoops" />
       <item itemvalue="Application.NullPointerException" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeMapExample" />
         <item itemvalue="Application.SystemErr" />
         <item itemvalue="Application.Increment" />
         <item itemvalue="Application.LabeledLoops" />
         <item itemvalue="Application.NullPointerException" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +468,7 @@
       <workItem from="1733136210050" duration="5277000" />
       <workItem from="1733235372356" duration="594000" />
       <workItem from="1733237507600" duration="701000" />
-      <workItem from="1733302899340" duration="1375000" />
+      <workItem from="1733302899340" duration="1697000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
