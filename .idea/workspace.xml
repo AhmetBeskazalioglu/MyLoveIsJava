@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
-      <change afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/asdas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javamodules/enums/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +119,7 @@
     "Application.Generics_Methods.executor": "Run",
     "Application.Generics_Test.executor": "Run",
     "Application.Increment.executor": "Run",
+    "Application.IncrementChallenge.executor": "Run",
     "Application.JAXB.executor": "Run",
     "Application.JAXB_List.executor": "Run",
     "Application.JAXB_ListFromDatabase.executor": "Run",
@@ -219,7 +220,7 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IncrementChallenge">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Increment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.Increment" />
       <module name="myproject" />
@@ -246,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LabeledLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javamodules.loops.LabeledLoops" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javamodules.enums.Main" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javamodules.loops.*" />
+          <option name="PATTERN" value="javamodules.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,18 +368,18 @@
     <list>
       <item itemvalue="Application.Increment" />
       <item itemvalue="Application.IncrementChallenge" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.SystemErr" />
       <item itemvalue="Application.TreeMapExample" />
-      <item itemvalue="Application.LabeledLoops" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.IncrementChallenge" />
         <item itemvalue="Application.TreeMapExample" />
         <item itemvalue="Application.SystemErr" />
         <item itemvalue="Application.Increment" />
-        <item itemvalue="Application.LabeledLoops" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +471,7 @@
       <workItem from="1733136210050" duration="5277000" />
       <workItem from="1733235372356" duration="594000" />
       <workItem from="1733237507600" duration="701000" />
-      <workItem from="1733302899340" duration="2363000" />
+      <workItem from="1733302899340" duration="3198000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
