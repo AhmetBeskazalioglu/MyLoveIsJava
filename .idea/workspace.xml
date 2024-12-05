@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/freeexamples/MaxOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/MaxOfThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javamodules/oop/abstraction/CanNotBeAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javamodules/oop/abstraction/CanNotBeAbstract.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
       <list>
         <option value="Record" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -109,6 +111,10 @@
     "Application.CanNotBeAbstract.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.DiagonalTraverse.executor": "Run",
+    "Application.DiamondProblem (1).executor": "Run",
+    "Application.DiamondProblem (2).executor": "Run",
+    "Application.DiamondProblem (3).executor": "Run",
+    "Application.DiamondProblem.executor": "Run",
     "Application.Dominant_Index.executor": "Debug",
     "Application.Employee_Test.executor": "Run",
     "Application.EnumMethodExample.executor": "Run",
@@ -471,7 +477,7 @@
       <workItem from="1733136210050" duration="5277000" />
       <workItem from="1733235372356" duration="594000" />
       <workItem from="1733237507600" duration="701000" />
-      <workItem from="1733302899340" duration="5275000" />
+      <workItem from="1733302899340" duration="7488000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />

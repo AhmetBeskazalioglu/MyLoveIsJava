@@ -3,6 +3,7 @@ package codetraining.freeexamples;
 import java.util.Scanner;
 
 public class MaxOfThree {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
