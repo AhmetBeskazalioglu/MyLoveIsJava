@@ -29,6 +29,22 @@ public class MaxOfThree {
 
         // Sonucu yazdır
         System.out.println("En büyük sayı: " + max);
+
+        MaxThree m=new MaxThree();
+        System.out.println(m.maxThree());
+
+    }
+
+
+}
+
+class MaxThree{
+    int maxThree(){
+        Scanner scanner=new Scanner(System.in);
+        int a= scanner.nextInt();
+        int b= scanner.nextInt();
+        int c= scanner.nextInt();
+        return a>=b?(a>=c?a:c):(b>=c?b:c);
     }
 }
 

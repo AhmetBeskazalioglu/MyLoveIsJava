@@ -17,8 +17,6 @@ public abstract class CanNotBeAbstract {
     public void method8(){};
     protected void method9(){};
     private void method10(){};
-
-    // Static concrete method
     static void method11(){};
 
 
