@@ -1,4 +1,4 @@
-package javamodules.interfaces.diamondproblem;
+package javamodules.oop.interfaces.diamondproblem;
 
 public class MultipleInheritanceExample {
     interface A {

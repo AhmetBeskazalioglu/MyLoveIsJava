@@ -1,4 +1,4 @@
-package javamodules.interfaces.diamondproblem;
+package javamodules.oop.interfaces.diamondproblem;
 
 interface A {
     default void showA() {
