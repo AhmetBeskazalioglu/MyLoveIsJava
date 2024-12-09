@@ -1,7 +1,5 @@
 package javamodules.oop.abstraction;
 
-import javamodules.interfaces.diamondproblem.DiamondProblem;
-
 public abstract class CanNotBeAbstract {
 
     // Abstract Methodlar
@@ -10,14 +8,19 @@ public abstract class CanNotBeAbstract {
     protected abstract void method3();
     //private abstract void method4(); // Private olamazlar; çünkü alt sınıfların erişimine kapalı olur.
     //static abstract void method5(); // Static olamazlar; çünkü static metotlar override edilemezler.
-    //synchronized abstract void method6(); // Synchronized olamazlar; çünkü synchronized metotlar override edilemezler.
+    //final abstract void method6(); // Final olamazlar; çünkü final metotlar override edilemezler.
+    //synchronized abstract void method7(); // Synchronized olamazlar; çünkü synchronized metotlar override edilemezler.
+
 
     // Concrete Methodlar
-    void method7(){};
     public void method8(){};
     protected void method9(){};
+    void method7(){};
     private void method10(){};
     static void method11(){};
+    final void method12(){};
+    synchronized void method13(){};
+
 
 
 
