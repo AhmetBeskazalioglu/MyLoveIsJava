@@ -8,12 +8,12 @@ public class CT_Fibonacci {
          * Dolayısıyla algoritmanın zaman karmaşıklığını tespit etmek.
          */
 
-        long fibonacci = 12;
-        long fibonacci2 = 1000;
+        long fibonacci = 30;
+        long fibonacci2 = 300000;
 
         long startTime = System.nanoTime();
         long fibonacciResult = fibonacci(fibonacci);
-        System.out.println("Fibonacci(" + fibonacci + "): " + fibonacciResult);
+        //System.out.println("Fibonacci(" + fibonacci + "): " + fibonacciResult);
         long endTime = System.nanoTime();
         double time = (endTime - startTime);
         System.out.println("Execution time for fibonacci: " + time + " nanotime");
@@ -22,7 +22,7 @@ public class CT_Fibonacci {
 
         long startTime2 = System.nanoTime();
         long fibonacciResult2 = fibonacci2(fibonacci2);
-        System.out.println("Fibonacci(" + fibonacci2 + "): " + fibonacciResult2);
+        //System.out.println("Fibonacci(" + fibonacci2 + "): " + fibonacciResult2);
         long endTime2 = System.nanoTime();
         double time2 = (endTime2 - startTime2);
         System.out.println("Execution time2 for fibonacci2: " + time2 + " nanotime");
@@ -31,6 +31,7 @@ public class CT_Fibonacci {
         double fb2=(double) fibonacci2;
         double n=fb2/fb;
         System.out.println("");
+
         System.out.println("n oranı, kaç katı: " + n + " kat daha büyük");
         System.out.println("zaman oranı, kaç katı: " + (time / time2)+" kat daha hızlı");
     }
@@ -56,6 +57,10 @@ public class CT_Fibonacci {
      * @return
      */
     public static long fibonacci2(long n) {
+        if (n <= 1) {
+            return n;
+        }
+
         long a = 0, b = 1;
         for (long i = 0; i < n; i++) {
             long temp = a;
