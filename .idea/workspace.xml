@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="misc.xml is added">
-      <change afterPath="$PROJECT_DIR$/src/javamodules/oop/AbstractAndInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javamodules/oop/interfaces/PrivateMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javamodules/oop/abstraction/example/AbtractClassExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javamodules/interfaces/diamondproblem/DiamondProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javamodules/oop/interfaces/diamondproblem/DiamondProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javamodules/interfaces/diamondproblem/MultipleInheritanceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javamodules/oop/interfaces/diamondproblem/MultipleInheritanceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/CT_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/CT_Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javamodules/oop/abstraction/AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javamodules/oop/abstraction/AbstractClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/CT_Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/codetraining/CT_Fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/javamodules/oop/AbstractAndInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javamodules/oop/AbstractAndInterface.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +102,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbstractAndInterface.executor": "Run",
     "Application.AbstractClassExample.executor": "Run",
     "Application.ArabaKayitFormuWithEnumSingletonDP.executor": "Run",
     "Application.Array.executor": "Run",
@@ -233,7 +235,7 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AbstractAndInterface">
+  <component name="RunManager" selected="Application.CT_Fibonacci">
     <configuration name="AbstractAndInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javamodules.oop.AbstractAndInterface" />
       <module name="myproject" />
@@ -382,8 +384,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AbstractAndInterface" />
         <item itemvalue="Application.CT_Fibonacci" />
+        <item itemvalue="Application.AbstractAndInterface" />
         <item itemvalue="Application.deneme" />
         <item itemvalue="Application.DiamondProblem" />
         <item itemvalue="Application.MultipleInheritanceExample" />
@@ -481,7 +483,7 @@
       <workItem from="1733302899340" duration="13402000" />
       <workItem from="1733738872312" duration="5967000" />
       <workItem from="1733756019684" duration="22000" />
-      <workItem from="1733756046843" duration="2177000" />
+      <workItem from="1733756046843" duration="9025000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
