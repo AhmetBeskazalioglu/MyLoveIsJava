@@ -102,5 +102,25 @@ public class AbtractClassExample {
         public void method1() {
             System.out.println("Method1 in ConcreteExtended");
         }
+
+        @Override
+        protected void method2() {
+            System.out.println("Method2 in ConcreteExtended");
+        }
+
+        @Override
+        void method3() {
+            System.out.println("Method3 in ConcreteExtended");
+        }
+    }
+
+    public static void main(String[] args){
+        AbtractClassExample abtractClassExample = new AbtractClassExample();
+        AbtractClassExample.AbstractExtended abstractExtended = abtractClassExample.new AbstractExtended();
+        AbtractClassExample.ConcreteExtended concreteExtended = abtractClassExample.new ConcreteExtended();
+        abstractExtended.method1();
+        abstractExtended.method2();
+        abstractExtended.method3();
+        concreteExtended.method1();
     }
 }
