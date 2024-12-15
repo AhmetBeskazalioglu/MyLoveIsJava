@@ -1,6 +1,6 @@
 package codetraining.leetcode;
 
-public class Solution {
+public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         int count=0;
         for(int i=0;i<nums.length;i++){
@@ -19,7 +19,7 @@ public class Solution {
     public static void main(String[] args) {
         int[] nums = {3,2,2,3};
         int val = 3;
-        Solution solution = new Solution();
-        System.out.println(solution.removeElement(nums, val));
+        RemoveElement removeElement = new RemoveElement();
+        System.out.println(removeElement.removeElement(nums, val));
     }
 }
