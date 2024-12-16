@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="Abstarct and concrete class">
-      <change afterPath="$PROJECT_DIR$/src/codetraining/leetcode/PalindromeNumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codetraining/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/leetcode/RemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/codetraining/leetcode/Solution.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +215,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -506,7 +503,8 @@
       <workItem from="1734014868675" duration="81000" />
       <workItem from="1734068488231" duration="626000" />
       <workItem from="1734195778335" duration="2267000" />
-      <workItem from="1734268268546" duration="1961000" />
+      <workItem from="1734268268546" duration="2700000" />
+      <workItem from="1734339582593" duration="1243000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
