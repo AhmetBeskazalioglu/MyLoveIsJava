@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="Abstarct and concrete class">
-      <change afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/dsa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/IncrementChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codetraining/freeexamples/dsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/Chocolate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +117,7 @@
     "Application.CT09_Taxi.executor": "Run",
     "Application.CT_Fibonacci.executor": "Run",
     "Application.CanNotBeAbstract.executor": "Run",
+    "Application.Chocolate.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.CustomExceptionDemo.executor": "Run",
     "Application.DiagonalTraverse.executor": "Run",
@@ -135,6 +137,7 @@
     "Application.Increment.executor": "Run",
     "Application.Increment2.executor": "Debug",
     "Application.IncrementChallenge.executor": "Run",
+    "Application.IncrementChar.executor": "Run",
     "Application.InterfaceExample.executor": "Run",
     "Application.InterfaceExample3.executor": "Run",
     "Application.JAXB.executor": "Run",
@@ -245,7 +248,7 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chocolate">
+  <component name="RunManager" selected="Application.IncrementChar">
     <configuration name="Chocolate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.Chocolate" />
       <module name="myproject" />
@@ -259,12 +262,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javamodules.oop.interfaces.InterfaceExample3" />
+    <configuration name="IncrementChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.IncrementChar" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javamodules.oop.interfaces.*" />
+          <option name="PATTERN" value="codetraining.freeexamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,19 +398,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Chocolate" />
+      <item itemvalue="Application.IncrementChar" />
       <item itemvalue="Application.PalindromeNumberTest" />
       <item itemvalue="Application.RemoveElement" />
-      <item itemvalue="Application.InterfaceExample3" />
       <item itemvalue="JUnit.FilterStringsTests.examples" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncrementChar" />
         <item itemvalue="Application.Chocolate" />
         <item itemvalue="JUnit.FilterStringsTests.examples" />
         <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.PalindromeNumberTest" />
-        <item itemvalue="Application.InterfaceExample3" />
       </list>
     </recent_temporary>
   </component>
@@ -511,7 +514,7 @@
       <workItem from="1734268268546" duration="2700000" />
       <workItem from="1734339582593" duration="2595000" />
       <workItem from="1734381951977" duration="200000" />
-      <workItem from="1734435563474" duration="2775000" />
+      <workItem from="1734435563474" duration="3537000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
