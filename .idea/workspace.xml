@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="Abstarct and concrete class">
-      <change beforePath="$PROJECT_DIR$/src/javamodules/io/examples/Files.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javamodules/io/examples/Files.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javamodules/io/examples/Files.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javamodules/io/examples/Files.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormatterTest2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javamodules/io/examples/CreatingReading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +102,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AbstractAndInterface.executor": "Run",
     "Application.AbstractClassExample.executor": "Run",
     "Application.AbtractClassExample.executor": "Run",
@@ -118,6 +120,7 @@
     "Application.CanNotBeAbstract.executor": "Run",
     "Application.Chocolate.executor": "Run",
     "Application.Client.executor": "Run",
+    "Application.CreatingReading.executor": "Run",
     "Application.CustomExceptionDemo.executor": "Run",
     "Application.DiagonalTraverse.executor": "Run",
     "Application.DiamondProblem (1).executor": "Run",
@@ -131,6 +134,7 @@
     "Application.Faker.executor": "Run",
     "Application.Faktoriyel.executor": "Run",
     "Application.Files.executor": "Run",
+    "Application.FormatterExample.executor": "Run",
     "Application.GenericInterfaceInstance.executor": "Run",
     "Application.Generics_Methods.executor": "Run",
     "Application.Generics_Test.executor": "Run",
@@ -251,7 +255,20 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FormatterExample">
+  <component name="RunManager" selected="Application.CreatingReading">
+    <configuration name="CreatingReading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javamodules.io.examples.CreatingReading" />
+      <module name="myproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javamodules.io.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Files" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javamodules.io.examples.Files" />
       <module name="myproject" />
@@ -271,19 +288,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javamodules.io.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Grades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.Grades" />
-      <module name="myproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codetraining.freeexamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -397,20 +401,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CreatingReading" />
       <item itemvalue="Application.Files" />
       <item itemvalue="Application.FormatterExample" />
       <item itemvalue="Application.IgnoringWhitespaces" />
       <item itemvalue="Application.SumWithIterators" />
-      <item itemvalue="Application.Grades" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreatingReading" />
         <item itemvalue="Application.FormatterExample" />
         <item itemvalue="Application.Files" />
         <item itemvalue="Application.SumWithIterators" />
         <item itemvalue="Application.IgnoringWhitespaces" />
-        <item itemvalue="Application.Grades" />
       </list>
     </recent_temporary>
   </component>
@@ -515,7 +519,7 @@
       <workItem from="1734339582593" duration="2595000" />
       <workItem from="1734381951977" duration="200000" />
       <workItem from="1734435563474" duration="6412000" />
-      <workItem from="1734534514214" duration="1459000" />
+      <workItem from="1734534514214" duration="2710000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
@@ -556,6 +560,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="misc.xml is added" />
     <MESSAGE value="Abstarct and concrete class" />
     <option name="LAST_COMMIT_MESSAGE" value="Abstarct and concrete class" />
