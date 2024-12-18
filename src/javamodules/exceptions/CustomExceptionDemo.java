@@ -1,4 +1,4 @@
-package exceptions;
+package javamodules.exceptions;
 
 public class CustomExceptionDemo {
     public static void validateAge(int age) throws CustomException {

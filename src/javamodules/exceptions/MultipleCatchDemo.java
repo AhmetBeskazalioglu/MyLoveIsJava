@@ -1,4 +1,4 @@
-package exceptions;
+package javamodules.exceptions;
 
 public class MultipleCatchDemo {
     public static void main(String[] args) {

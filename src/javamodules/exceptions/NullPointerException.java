@@ -1,4 +1,4 @@
-package exceptions;
+package javamodules.exceptions;
 
 public class NullPointerException {
     public static void main(String[] args) {
