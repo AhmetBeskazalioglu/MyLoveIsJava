@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="Abstarct and concrete class">
-      <change afterPath="$PROJECT_DIR$/src/javamodules/iterator/examples/SumWithIterators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javamodules/io/examples/Files.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +130,7 @@
     "Application.EvenNumberOperationsWithLambda.executor": "Run",
     "Application.Faker.executor": "Run",
     "Application.Faktoriyel.executor": "Run",
+    "Application.Files.executor": "Run",
     "Application.GenericInterfaceInstance.executor": "Run",
     "Application.Generics_Methods.executor": "Run",
     "Application.Generics_Test.executor": "Run",
@@ -249,13 +251,13 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumWithIterators">
-    <configuration name="Chocolate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.Chocolate" />
+  <component name="RunManager" selected="Application.Files">
+    <configuration name="Files" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javamodules.io.examples.Files" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codetraining.freeexamples.*" />
+          <option name="PATTERN" value="javamodules.io.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,20 +397,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Files" />
       <item itemvalue="Application.IgnoringWhitespaces" />
       <item itemvalue="Application.SumWithIterators" />
-      <item itemvalue="Application.Chocolate" />
       <item itemvalue="Application.Grades" />
       <item itemvalue="Application.IncrementChar" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Files" />
         <item itemvalue="Application.SumWithIterators" />
         <item itemvalue="Application.IgnoringWhitespaces" />
         <item itemvalue="Application.Grades" />
         <item itemvalue="Application.IncrementChar" />
-        <item itemvalue="Application.Chocolate" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +515,7 @@
       <workItem from="1734339582593" duration="2595000" />
       <workItem from="1734381951977" duration="200000" />
       <workItem from="1734435563474" duration="6412000" />
-      <workItem from="1734534514214" duration="839000" />
+      <workItem from="1734534514214" duration="1149000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
