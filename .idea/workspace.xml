@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="Abstarct and concrete class">
-      <change afterPath="$PROJECT_DIR$/src/ocp/java17/assessmenttest/AssessmentTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javamodules/thread/examples/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javamodules/thread/examples/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ocp/java17/assessmenttest/AssessmentTest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,8 @@
     "Application.ArrayManipulation.executor": "Run",
     "Application.ArrayPrint.executor": "Run",
     "Application.AsalSayi.executor": "Run",
-    "Application.AssessmentTest1.executor": "Debug",
+    "Application.AssessmentTest1.executor": "Run",
+    "Application.AssessmentTest2.executor": "Run",
     "Application.BinaryOperatorExample.executor": "Run",
     "Application.BookTest.executor": "Run",
     "Application.CT01_Faktoriyel.executor": "Run",
@@ -259,7 +258,7 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AssessmentTest1">
+  <component name="RunManager" selected="Application.AssessmentTest2">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javamodules.thread.examples.A" />
       <module name="myproject" />
@@ -286,12 +285,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CT01_Faktoriyel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codetraining.CT01_Faktoriyel" />
+    <configuration name="AssessmentTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ocp.java17.assessmenttest.AssessmentTest2" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codetraining.*" />
+          <option name="PATTERN" value="ocp.java17.assessmenttest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatingReading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javamodules.io.examples.CreatingReading" />
+    <configuration name="CT01_Faktoriyel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codetraining.CT01_Faktoriyel" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javamodules.io.examples.*" />
+          <option name="PATTERN" value="codetraining.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -419,19 +418,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.AssessmentTest1" />
+      <item itemvalue="Application.AssessmentTest2" />
       <item itemvalue="Application.CT01_Faktoriyel" />
       <item itemvalue="Application.A" />
-      <item itemvalue="Application.CreatingReading" />
       <item itemvalue="Application.ThreadExample" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AssessmentTest2" />
         <item itemvalue="Application.AssessmentTest1" />
         <item itemvalue="Application.CT01_Faktoriyel" />
         <item itemvalue="Application.A" />
         <item itemvalue="Application.ThreadExample" />
-        <item itemvalue="Application.CreatingReading" />
       </list>
     </recent_temporary>
   </component>
@@ -581,17 +580,6 @@
     <MESSAGE value="misc.xml is added" />
     <MESSAGE value="Abstarct and concrete class" />
     <option name="LAST_COMMIT_MESSAGE" value="Abstarct and concrete class" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ocp/java17/assessmenttest/AssessmentTest1.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
