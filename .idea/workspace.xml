@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="Abstarct and concrete class" />
+    <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="Abstarct and concrete class">
+      <change afterPath="$PROJECT_DIR$/src/ocp/java17/assessmenttest/v.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -521,7 +524,8 @@
       <workItem from="1734381951977" duration="200000" />
       <workItem from="1734435563474" duration="6412000" />
       <workItem from="1734534514214" duration="4074000" />
-      <workItem from="1734781333663" duration="629000" />
+      <workItem from="1734781333663" duration="992000" />
+      <workItem from="1734877886966" duration="677000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
