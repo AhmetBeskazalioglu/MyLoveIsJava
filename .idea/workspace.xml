@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="Abstarct and concrete class">
-      <change afterPath="$PROJECT_DIR$/src/ocp/java17/assessmenttest/v.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/LogLevelsWithRegex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,142 +99,144 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.A.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AbstractAndInterface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AbstractClassExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AbtractClassExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArabaKayitFormuWithEnumSingletonDP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayManipulation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayPrint.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AsalSayi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AssessmentTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AssessmentTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryOperatorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BookTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CT01_Faktoriyel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CT04_Abstract_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CT07_NotOrtalamasi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CT09_Taxi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CT_Fibonacci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CanNotBeAbstract.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Chocolate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CreatingReading.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomExceptionDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiagonalTraverse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiamondProblem (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiamondProblem (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiamondProblem (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiamondProblem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dominant_Index.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Employee_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumMethodExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenNumberOperationsWithLambda.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Faker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Faktoriyel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Files.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FormatterExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenericInterfaceInstance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics_Methods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Grades.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IgnoringWhitespaces.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Increment.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Increment2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.IncrementChallenge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IncrementChar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterfaceExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterfaceExample3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB_List.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB_ListFromDatabase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB_List_Marshal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB_List_Unmarshal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB_Marshal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JAXB_Unmarshal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JpaTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LabeledLoops.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaInstance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lambda_FI_Create (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lambda_FI_Create.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LazySingletonMain.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LoggerTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxOfThree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultipleInheritanceExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NAdetParametre.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NullPointerException.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PalindromeNumberTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Personal_Jaxb.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PersonelKaydetyadaOku (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.PersonelKaydetyadaOku.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Plus_One.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProxyDesignPattern_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reflection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reflection_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RegistrationMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SerilizationOrnek.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShapeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Shapemain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonMain (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Static_Keyword (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Static_Keyword.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StrinTokenizerClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBufferExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBuilder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBuilder_Example.executor&quot;: &quot;Run&quot;,
-    &quot;Application.String_And_NewString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.String_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumWithIterators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SuperExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SystemErr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestMaaslar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeMapExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WeekDays_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.example.javamodules.lambdaExpression.Lambda_FI_Create.executor&quot;: &quot;Run&quot;,
-    &quot;Application.deneme.executor&quot;: &quot;Run&quot;,
-    &quot;Application.finalDeneme.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javamodules.jaxb_xml.example.composite.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javamodules.lambdaExpression.LambdaInstance (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.javamodules.lambdaExpression.LambdaInstance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javamodules.lambdaExpression.genericinterfacesexample.BinaryOperatorExample.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FilterStringsTests.examples.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.Lambda_FI_Create.testLambda_FI_Create.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Lambda_FI_Create.testNotFunction.executor&quot;: &quot;Run&quot;,
-    &quot;TomEE Server.SoapService.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.SoapService.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.Tomcat 10.1.23.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/anke/IdeaProjects/Backend/Anke/Anke_My-Love-Is-JAVA&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.other&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.A.executor": "Run",
+    "Application.AbstractAndInterface.executor": "Run",
+    "Application.AbstractClassExample.executor": "Run",
+    "Application.AbtractClassExample.executor": "Run",
+    "Application.ArabaKayitFormuWithEnumSingletonDP.executor": "Run",
+    "Application.Array.executor": "Run",
+    "Application.ArrayManipulation.executor": "Run",
+    "Application.ArrayPrint.executor": "Run",
+    "Application.AsalSayi.executor": "Run",
+    "Application.AssessmentTest1.executor": "Run",
+    "Application.AssessmentTest2.executor": "Run",
+    "Application.BinaryOperatorExample.executor": "Run",
+    "Application.BookTest.executor": "Run",
+    "Application.CT01_Faktoriyel.executor": "Run",
+    "Application.CT04_Abstract_Test.executor": "Run",
+    "Application.CT07_NotOrtalamasi.executor": "Run",
+    "Application.CT09_Taxi.executor": "Run",
+    "Application.CT_Fibonacci.executor": "Run",
+    "Application.CanNotBeAbstract.executor": "Run",
+    "Application.Chocolate.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.CreatingReading.executor": "Run",
+    "Application.CustomExceptionDemo.executor": "Run",
+    "Application.DiagonalTraverse.executor": "Run",
+    "Application.DiamondProblem (1).executor": "Run",
+    "Application.DiamondProblem (2).executor": "Run",
+    "Application.DiamondProblem (3).executor": "Run",
+    "Application.DiamondProblem.executor": "Run",
+    "Application.Dominant_Index.executor": "Debug",
+    "Application.Employee_Test.executor": "Run",
+    "Application.EnumMethodExample.executor": "Run",
+    "Application.EvenNumberOperationsWithLambda.executor": "Run",
+    "Application.Faker.executor": "Run",
+    "Application.Faktoriyel.executor": "Run",
+    "Application.Files.executor": "Run",
+    "Application.FormatterExample.executor": "Run",
+    "Application.GenericInterfaceInstance.executor": "Run",
+    "Application.Generics_Methods.executor": "Run",
+    "Application.Generics_Test.executor": "Run",
+    "Application.Grades.executor": "Run",
+    "Application.IgnoringWhitespaces.executor": "Run",
+    "Application.Increment.executor": "Run",
+    "Application.Increment2.executor": "Debug",
+    "Application.IncrementChallenge.executor": "Run",
+    "Application.IncrementChar.executor": "Run",
+    "Application.InterfaceExample.executor": "Run",
+    "Application.InterfaceExample3.executor": "Run",
+    "Application.JAXB.executor": "Run",
+    "Application.JAXB_List.executor": "Run",
+    "Application.JAXB_ListFromDatabase.executor": "Run",
+    "Application.JAXB_List_Marshal.executor": "Run",
+    "Application.JAXB_List_Unmarshal.executor": "Run",
+    "Application.JAXB_Marshal.executor": "Run",
+    "Application.JAXB_Unmarshal.executor": "Run",
+    "Application.JpaTest.executor": "Run",
+    "Application.LabeledLoops.executor": "Run",
+    "Application.LambdaInstance.executor": "Run",
+    "Application.Lambda_FI_Create (1).executor": "Run",
+    "Application.Lambda_FI_Create.executor": "Run",
+    "Application.LazySingletonMain.executor": "Debug",
+    "Application.LogLevels.executor": "Run",
+    "Application.LogLevelsWithRegex.executor": "Run",
+    "Application.LoggerTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaxOfThree.executor": "Run",
+    "Application.MergeSortedArray.executor": "Run",
+    "Application.MultipleInheritanceExample.executor": "Run",
+    "Application.NAdetParametre.executor": "Debug",
+    "Application.NullPointerException.executor": "Run",
+    "Application.PalindromeNumberTest.executor": "Run",
+    "Application.Person.executor": "Run",
+    "Application.Personal_Jaxb.executor": "Run",
+    "Application.PersonelKaydetyadaOku (1).executor": "Run",
+    "Application.PersonelKaydetyadaOku.executor": "Run",
+    "Application.Plus_One.executor": "Run",
+    "Application.ProxyDesignPattern_Test.executor": "Run",
+    "Application.Reflection.executor": "Run",
+    "Application.Reflection_Test.executor": "Run",
+    "Application.RegistrationMain.executor": "Run",
+    "Application.RemoveElement.executor": "Run",
+    "Application.SerilizationOrnek.executor": "Run",
+    "Application.ShapeTest.executor": "Run",
+    "Application.Shapemain.executor": "Run",
+    "Application.SingletonMain (1).executor": "Run",
+    "Application.SingletonMain.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.Static_Keyword (1).executor": "Run",
+    "Application.Static_Keyword.executor": "Run",
+    "Application.StrinTokenizerClass.executor": "Run",
+    "Application.StringBufferExample.executor": "Run",
+    "Application.StringBuilder.executor": "Run",
+    "Application.StringBuilder_Example.executor": "Run",
+    "Application.String_And_NewString.executor": "Run",
+    "Application.String_Test.executor": "Run",
+    "Application.SumWithIterators.executor": "Run",
+    "Application.SuperExample.executor": "Run",
+    "Application.SystemErr.executor": "Run",
+    "Application.Test (1).executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestMaaslar.executor": "Run",
+    "Application.ThreadExample.executor": "Run",
+    "Application.TreeMapExample.executor": "Run",
+    "Application.WeekDays_Test.executor": "Run",
+    "Application.com.example.javamodules.lambdaExpression.Lambda_FI_Create.executor": "Run",
+    "Application.deneme.executor": "Run",
+    "Application.finalDeneme.executor": "Run",
+    "Application.javamodules.jaxb_xml.example.composite.Test.executor": "Run",
+    "Application.javamodules.lambdaExpression.LambdaInstance (1).executor": "Run",
+    "Application.javamodules.lambdaExpression.LambdaInstance.executor": "Run",
+    "Application.javamodules.lambdaExpression.genericinterfacesexample.BinaryOperatorExample.executor": "Run",
+    "JUnit.FilterStringsTests.examples.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Lambda_FI_Create.testLambda_FI_Create.executor": "Run",
+    "TestNG.Lambda_FI_Create.testNotFunction.executor": "Run",
+    "TomEE Server.SoapService.executor": "Run",
+    "Tomcat Server.SoapService.executor": "Run",
+    "Tomcat Server.Tomcat 10.1.23.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/anke/IdeaProjects/Backend/Anke/Anke_My-Love-Is-JAVA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.other",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="javamodules.lambdaExpression" />
@@ -259,20 +261,7 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AssessmentTest2">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javamodules.thread.examples.A" />
-      <module name="myproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javamodules.thread.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LogLevelsWithRegex">
     <configuration name="AssessmentTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ocp.java17.assessmenttest.AssessmentTest1" />
       <module name="myproject" />
@@ -312,12 +301,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javamodules.thread.examples.ThreadExample" />
+    <configuration name="LogLevels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.LogLevels" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javamodules.thread.examples.*" />
+          <option name="PATTERN" value="codetraining.freeexamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogLevelsWithRegex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.LogLevelsWithRegex" />
+      <module name="myproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codetraining.freeexamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,20 +407,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LogLevels" />
+      <item itemvalue="Application.LogLevelsWithRegex" />
       <item itemvalue="Application.AssessmentTest1" />
       <item itemvalue="Application.AssessmentTest2" />
       <item itemvalue="Application.CT01_Faktoriyel" />
-      <item itemvalue="Application.A" />
-      <item itemvalue="Application.ThreadExample" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LogLevelsWithRegex" />
+        <item itemvalue="Application.LogLevels" />
         <item itemvalue="Application.AssessmentTest2" />
         <item itemvalue="Application.AssessmentTest1" />
         <item itemvalue="Application.CT01_Faktoriyel" />
-        <item itemvalue="Application.A" />
-        <item itemvalue="Application.ThreadExample" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +527,7 @@
       <workItem from="1734435563474" duration="6412000" />
       <workItem from="1734534514214" duration="4074000" />
       <workItem from="1734781333663" duration="992000" />
-      <workItem from="1734877886966" duration="677000" />
+      <workItem from="1734877886966" duration="5544000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
