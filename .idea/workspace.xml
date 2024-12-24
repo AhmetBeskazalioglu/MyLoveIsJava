@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="Abstarct and concrete class">
-      <change afterPath="$PROJECT_DIR$/src/codetraining/BestOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codetraining/Regex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/MainMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/Snake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codetraining/freeexamples/LogLevelsWithRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/exercism/LogLevelsWithRegex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codetraining/hyperskill/bestone/CallingMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codetraining/hyperskill/CallingMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +193,7 @@
     "Application.Shapemain.executor": "Run",
     "Application.SingletonMain (1).executor": "Run",
     "Application.SingletonMain.executor": "Run",
+    "Application.Snake.executor": "Run",
     "Application.Solution.executor": "Run",
     "Application.Static_Keyword (1).executor": "Run",
     "Application.Static_Keyword.executor": "Run",
@@ -276,7 +273,7 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainMethods1">
+  <component name="RunManager" selected="Application.WhereToAdd">
     <configuration name="GroceryList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codetraining.educative.GroceryList" />
       <module name="myproject" />
@@ -329,12 +326,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dsds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codetraining.educative.dsds" />
+    <configuration name="WhereToAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.WhereToAdd" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codetraining.educative.*" />
+          <option name="PATTERN" value="codetraining.freeexamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,17 +422,17 @@
       <item itemvalue="Application.MainMethods" />
       <item itemvalue="Application.MainMethods1" />
       <item itemvalue="Application.Weather" />
+      <item itemvalue="Application.WhereToAdd" />
       <item itemvalue="Application.GroceryList" />
-      <item itemvalue="Application.dsds" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WhereToAdd" />
         <item itemvalue="Application.MainMethods1" />
         <item itemvalue="Application.MainMethods" />
         <item itemvalue="Application.Weather" />
         <item itemvalue="Application.GroceryList" />
-        <item itemvalue="Application.dsds" />
       </list>
     </recent_temporary>
   </component>
@@ -545,7 +542,7 @@
       <workItem from="1734877886966" duration="8891000" />
       <workItem from="1734967340694" duration="3647000" />
       <workItem from="1735045393529" duration="889000" />
-      <workItem from="1735051314247" duration="2600000" />
+      <workItem from="1735051314247" duration="3846000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
