@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9557dd-4d70-40e9-b99d-0eccb5a981eb" name="Changes" comment="Abstarct and concrete class">
-      <change afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codetraining/freeexamples/dasd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -214,6 +214,7 @@
     "Application.Weather.executor": "Run",
     "Application.WeekDays_Test.executor": "Run",
     "Application.com.example.javamodules.lambdaExpression.Lambda_FI_Create.executor": "Run",
+    "Application.dasd.executor": "Run",
     "Application.deneme.executor": "Run",
     "Application.dsds.executor": "Run",
     "Application.finalDeneme.executor": "Run",
@@ -230,6 +231,7 @@
     "TomEE Server.SoapService.executor": "Run",
     "Tomcat Server.SoapService.executor": "Run",
     "Tomcat Server.Tomcat 10.1.23.executor": "Run",
+    "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "main",
     "ignore.preview.features.used": "true",
     "kotlin-language-version-configured": "true",
@@ -242,7 +244,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.other",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -273,20 +275,7 @@
       <recent name="javamodules.lambdaExpression.methodreference" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WhereToAdd">
-    <configuration name="GroceryList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codetraining.educative.GroceryList" />
-      <module name="myproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codetraining.educative.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.dasd">
     <configuration name="MainMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.MainMethods" />
       <module name="myproject" />
@@ -328,6 +317,19 @@
     </configuration>
     <configuration name="WhereToAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.WhereToAdd" />
+      <module name="myproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codetraining.freeexamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dasd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codetraining.freeexamples.dasd" />
       <module name="myproject" />
       <extension name="coverage">
         <pattern>
@@ -423,16 +425,16 @@
       <item itemvalue="Application.MainMethods1" />
       <item itemvalue="Application.Weather" />
       <item itemvalue="Application.WhereToAdd" />
-      <item itemvalue="Application.GroceryList" />
+      <item itemvalue="Application.dasd" />
       <item itemvalue="Tomcat Server.Tomcat Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dasd" />
         <item itemvalue="Application.WhereToAdd" />
         <item itemvalue="Application.MainMethods1" />
         <item itemvalue="Application.MainMethods" />
         <item itemvalue="Application.Weather" />
-        <item itemvalue="Application.GroceryList" />
       </list>
     </recent_temporary>
   </component>
@@ -542,7 +544,7 @@
       <workItem from="1734877886966" duration="8891000" />
       <workItem from="1734967340694" duration="3647000" />
       <workItem from="1735045393529" duration="889000" />
-      <workItem from="1735051314247" duration="3846000" />
+      <workItem from="1735051314247" duration="5679000" />
     </task>
     <task id="LOCAL-00001" summary="misc.xml is added">
       <option name="closed" value="true" />
