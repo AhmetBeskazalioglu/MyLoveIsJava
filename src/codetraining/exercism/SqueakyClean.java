@@ -1,7 +1,20 @@
 package codetraining.exercism;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class SqueakyClean {
-    static String clean(String input) {
+    private static final Map<Character, Character> REPLACEMENTS = new HashMap<>();
+
+    static {
+        REPLACEMENTS.put('1', 'l');
+        REPLACEMENTS.put('3', 'e');
+        REPLACEMENTS.put('4', 'a');
+        REPLACEMENTS.put('7', 't');
+        REPLACEMENTS.put('0', 'o');
+    }
+
+    public static String clean(String input) {
         StringBuilder result = new StringBuilder();
         boolean toUpperCase = false;
 
@@ -13,30 +26,11 @@ public class SqueakyClean {
                 toUpperCase = true; // Sonraki harfi büyük yap.
             } else if (c == ' ') {
                 result.append('_');
-            } else if (c == '4' || c == '3' || c == '0' || c == '1' || c == '7') {
-                switch (c) {
-                    case '1':
-                        result.append('l');
-                        break;
-                    case '3':
-                        result.append('e');
-                        break;
-                    case '4':
-                        result.append('a');
-                        break;
-                    case '7':
-                        result.append('t');
-                        break;
-                    case '0':
-                        result.append('o');
-                        break;
-                    default:
-                        break;
-                }
-            } else if (!Character.isLetter(c)) {
-                continue;
-            } else
+            } else if (REPLACEMENTS.containsKey(c)) {
+                result.append(REPLACEMENTS.get(c));
+            } else if (Character.isLetter(c)) {
                 result.append(c);
+            }
         }
         return result.toString();
     }
