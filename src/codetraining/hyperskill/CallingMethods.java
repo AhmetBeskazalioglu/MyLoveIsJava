@@ -1,5 +1,8 @@
-package codetraining.hyperskill.bestone;
+package codetraining.hyperskill;
 
+import codetraining.BestOne;
+
+@BestOne
 public class CallingMethods {
     public static void printSum(long val1, int val2) {
         System.out.println(val1 + val2);

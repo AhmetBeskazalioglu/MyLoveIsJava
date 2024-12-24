@@ -1,6 +1,8 @@
-package codetraining.freeexamples;
+package codetraining.exercism;
 
+import codetraining.Regex;
 
+@Regex
 public class LogLevelsWithRegex {
 
     public static String message(String logLine) {
